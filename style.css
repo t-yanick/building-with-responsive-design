@@ -150,7 +150,6 @@ header nav ul li {
       "grid-1 grid-1 grid-3";
     gap: 10px;
     margin: 0 auto;
-    border: 2px solid green;
     grid-gap: 10px;  
 }
 .grid-1{
@@ -215,7 +214,6 @@ header nav ul li {
     grid-template-areas: "l1 l2 l3 l4" "l5 l6 l7 l8":
     gap: 10px;
     margin: 0 auto;
-    border: 2px solid green;
     grid-gap: 10px; 
 }
 
@@ -349,8 +347,9 @@ header nav ul li {
     justify-content: space-between;
   }
   
-  .fund-header h1 a {
+  .fund-header h1{
     color: orangered;
+
   }
   
   .latest-fund {
@@ -358,22 +357,31 @@ header nav ul li {
   }
   
   .funding-article {
-    width: 230px;
+    width: 300px;
     background: rgb(255, 230, 220);
+    margin: 10px;
+    padding: 10px;
   }
 
   .funding-article img {
-      width: 10px;
-      height: 10px;
+      margin-top: 0 0 0 0; 
+      padding-top: 0;
+      margin-left: 5px;
+      width: 50px;
+      height: 60px;
+      position: relative;
   }
   
   .funding-article h2 {
     font-size: 2em;
     width: 100%;
-    height: 30px;
-    padding: 2% 0 0 30%;
+    height: 40px;
+    padding: 0 0 0 0;
+    margin-top: 0;
     background: red;
     color: white;
+    top: -100px;
+
   }
   
   .funding-article h3 {
@@ -389,3 +397,131 @@ header nav ul li {
     line-height: 20px;
     font-size: 1em;
   }
+  .popular{
+      display: grid;
+
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "popular-1 popular-2 popular-3"
+      "popular-4 popular-5 popular-6"
+      "popular-7 popular-8 popular-9";
+      margin: 10px;
+      grid-gap: 10px;
+      padding-bottom: 500px;
+  }
+  .popular-1{
+    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+  }
+  .popular-2{
+    background-image: url("../images/Social-media-hed-image-796x419.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-3{
+    background-image: url("../images/222.png");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-4{
+    background-image: url("../images/weed_tech-796x417.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-5{
+    background-image: url("../images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-6{
+    background-image: url("../images/img.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-7{
+    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-8{
+    background-image: url("../images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.popular-9{
+    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    text-align: right;
+    margin: 0 0 0 24px;
+    padding: 12px;
+    flex-basis: 33px;
+}
+.articles-link{
+    text-align: justify;
+    padding-bottom: 100px;
+}
+.sub-text{
+    padding-bottom: 100px;
+    justify-items: baseline;
+}
