@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+header nav ul li {
+    display: inline;
+  }
+
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
 .nav-1 {
     background-color: black;
     display: flex;
@@ -265,7 +274,7 @@
     height: 100%;
     padding: 10px;
 }
-.latest-fund{
+/* .latest-fund{
     color: hsl(0, 0%, 33%);
     font-size: 14px;
     gap: normal;
@@ -279,3 +288,104 @@
     gap: normal;
     line-height: 32px;
 }
+
+.latest-fund-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.latest-fund-header h2 {
+    color: orangered;
+}
+
+.latest-fund-header-links {
+    display: flex;
+    justify-content: space-around;;
+}
+
+.latest-fund-header-links a {
+    text-decoration: none;
+}
+
+.latest-fund-header-links li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    /* text-decoration: none; */
+}
+
+.latest-fund-header h2 a, 
+.latest-fund-header ul li a {
+    text-decoration: none;
+    color: orangered;
+    list-style: none;
+}
+
+.latest-fund-header h2 a, 
+.latest-fund-header ul li a:hover {
+    color: black;
+}
+
+.latest-fund-header-links ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+} */
+
+/*----------------funding------------*/
+
+.latest-fund-header {
+    width: 75%;
+    margin: 3% auto;
+  }
+  
+  .fund-header {
+    margin: 2% 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .fund-header h1 a {
+    color: orangered;
+  }
+  
+  .latest-fund {
+    justify-content: space-between;
+  }
+  
+  .funding-article {
+    width: 230px;
+    background: rgb(255, 230, 220);
+  }
+
+  .funding-article img {
+      width: 10px;
+      height: 10px;
+  }
+  
+  .funding-article h2 {
+    font-size: 2em;
+    width: 100%;
+    height: 30px;
+    padding: 2% 0 0 30%;
+    background: red;
+    color: white;
+  }
+  
+  .funding-article h3 {
+    font-size: 1.5em;
+    width: 100%;
+    height: 40px;
+    padding: 3% 0 0 30%;
+    background: rgb(238, 174, 174);
+  }
+  
+  .funding-article p {
+    padding: 0 0 0 2%;
+    line-height: 20px;
+    font-size: 1em;
+  }
