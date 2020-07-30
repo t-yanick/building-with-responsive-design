@@ -111,7 +111,7 @@ header nav ul li {
 }
 
 .search {
-    /*border: 1px solid yellow;
+    /*border: 1px solid lime;
     float: right; */
     /* text-align: right; */
     /* border: 1px solid red; */
@@ -398,130 +398,218 @@ header nav ul li {
     font-size: 1em;
   }
   .popular{
-      display: grid;
-
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: 
-      "popular-1 popular-2 popular-3"
-      "popular-4 popular-5 popular-6"
-      "popular-7 popular-8 popular-9";
-      margin: 10px;
-      grid-gap: 10px;
-      padding-bottom: 500px;
+  display: grid;
+  height: 50px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px; 
+  padding-bottom: 2000px;  
   }
   .popular-1{
     background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
+
   }
-  .popular-2{
+  
+  .popular-2 {
     background-image: url("../images/Social-media-hed-image-796x419.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-3{
+  }
+  .popular-3 {
     background-image: url("../images/222.png");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-4{
+  }
+  .popular-4 {
     background-image: url("../images/weed_tech-796x417.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-5{
+  }
+  .popular-5 {
     background-image: url("../images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-6{
+  }
+  .popular-6 {
     background-image: url("../images/img.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-7{
+  }
+  .popular-7 {
     background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-8{
+  }
+  .popular-8 {
     background-image: url("../images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
-}
-.popular-9{
+  }
+  .popular-9 {
     background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    height: 300px;
     background-size: 100% 100%;
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    text-align: right;
-    margin: 0 0 0 24px;
-    padding: 12px;
-    flex-basis: 33px;
+  }
+.popular-title1 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
 }
-.articles-link{
-    text-align: justify;
-    padding-bottom: 100px;
+.popular-title1 a:hover{
+    color: black;
+}
+.popular-title1 ul li{
+ list-style-type: none;
+}
+
+.popular-title1 ul a{
+ text-decoration: none;
+}
+
+.popular-title2 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title2 a:hover{
+    color: black;
+}
+.popular-title2 ul li{
+ list-style-type: none;
+}
+
+.popular-title2 ul a{
+ text-decoration: none;
+}
+.popular-title3 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title3 a:hover{
+    color: black;
+}
+.popular-title3 ul li{
+ list-style-type: none;
+}
+
+.popular-title3 ul a{
+ text-decoration: none;
+}
+.popular-title4 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title4 a:hover{
+    color: black;
+}
+.popular-title4 ul li{
+ list-style-type: none;
+}
+
+.popular-title4 ul a{
+ text-decoration: none;
+}
+.popular-title5 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title5 a:hover{
+    color: black;
+}
+.popular-title5 ul li{
+ list-style-type: none;
+}
+
+.popular-title5 ul a{
+ text-decoration: none;
+}
+.popular-title6 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title5 a:hover{
+    color: black;
+}
+.popular-title6 ul li{
+ list-style-type: none;
+}
+
+.popular-title6 ul a{
+ text-decoration: none;
+}
+.popular-title7 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title7 a:hover{
+    color: black;
+}
+.popular-title7 ul li{
+ list-style-type: none;
+}
+
+.popular-title7 ul a{
+ text-decoration: none;
+}
+.popular-title8 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title8 a:hover{
+    color: black;
+}
+.popular-title8 ul li{
+ list-style-type: none;
+}
+
+.popular-title8 ul a{
+ text-decoration: none;
+}
+.popular-title9 {
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: 100%;
+}
+.popular-title9 a:hover{
+    color: black;
+}
+.popular-title9 ul li{
+ list-style-type: none;
+}
+
+.popular-title9 ul a{
+ text-decoration: none;
+}
+.sub-text a{
+    text-decoration: none;
 }
 .sub-text{
-    padding-bottom: 100px;
-    justify-items: baseline;
+display: flex;
+ justify-content: space-between;
+ padding-top: 2px;
+ background-color: #FFFAF7;
+ height: 100px;
+ justify-content: center;
+ 
+}
+.sub-text img{
+    width: 80px;
+    height: 80px;
+}
+.popular-title1 p{
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.latest-deals{
+ margin-bottom: 100%;
 }
