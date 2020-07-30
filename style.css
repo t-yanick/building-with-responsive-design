@@ -1,15 +1,36 @@
 
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header nav ul li {
-    display: inline;
+html {
+    font-size: 60%;
   }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+  }
+
+  .flex {
+    display: flex;
+}
 
 .flex-row {
     display: flex;
     flex-flow: row wrap;
+  }
+
+header nav ul li {
+    display: inline;
   }
 
 .nav-1 {
@@ -397,7 +418,8 @@ header nav ul li {
     line-height: 20px;
     font-size: 1em;
   }
-  .popular{
+
+  /* .popular{
   display: grid;
   height: 50px;
   grid-template-rows: 1fr 1fr 1fr;
@@ -608,7 +630,168 @@ display: flex;
     align-items: center;
     margin-bottom: 0;
     margin-top: 0;
-}
+} */
+
+/* ----------------- Popular Section ----------------- */
+.most-popular {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  
+  .most-popular-1,
+  .most-popular-2,
+  .most-popular-3 {
+    margin-bottom: 4rem;
+    justify-content: center;
+  }
+  
+  .single-popular {
+    width: 38.5rem;
+  }
+  
+  .single-popular:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  .popular-top {
+    position: relative;
+  }
+  
+  .popular-img-box {
+    width: 100%;
+    height: 22rem;
+    background-size: cover;
+  }
+  
+  .img-popular-1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bitcoin_today-header_bitcoin_today.jpg");
+  }
+  
+  .img-popular-2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Social-media-hed-image-796x419.jpg");
+  }
+  
+  .img-popular-3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/222.png");
+  }
+  
+  .img-popular-4 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/weed_tech-796x417.jpg");
+  }
+  
+  .img-popular-5 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
+  }
+  
+  .img-popular-6 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/img.jpg");
+  }
+
+  .img-popular-7 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
+  }
+  
+  .img-popular-8 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bitcoin_today-header_bitcoin_today.jpg");
+  }
+  
+  .img-popular-9 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bitcoin_today-header_bitcoin_today.jpg");
+  }
+  
+  .popular-absolute-bottom {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+  }
+  
+  .popular-absolute-bottom h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular-absolute-bottom h4 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    width: 80%;
+  }
+  
+  .popular-absolute-bottom p {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 700;
+  }
+
+  .popular-middle {
+      margin-top: 2px;
+  }
+  
+  .popular-middle-left {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .popular-middle h3 {
+    text-transform: uppercase;
+    color: orangered;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .popular-middle p {
+    color: orangered;
+    font-size: 1.4rem;
+    font-weight: 900;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  
+  .popular-middle {
+    justify-content: space-between;
+    background-color: #fffaf7;
+  }
+  
+  .popular-list {
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .popular-list li {
+    margin: 1rem 0;
+    float: right;
+  }
+  
+  .li-container {
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .li-left {
+    margin-right: 1rem;
+  }
+  
+  .li-right {
+    margin-right: 1.5rem;
+  }
+  
+  .li-container::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+  }
 
 .latest-deals{
  margin-bottom: 100%;
