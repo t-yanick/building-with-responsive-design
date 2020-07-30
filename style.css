@@ -1,9 +1,6 @@
+
 * {
     box-sizing: border-box;
-}
-
-header {
-    
 }
 
 .nav-1 {
@@ -268,4 +265,17 @@ header {
     height: 100%;
     padding: 10px;
 }
-
+.latest-fund{
+    color: hsl(0, 0%, 33%);
+    font-size: 14px;
+    gap: normal;
+    line-height: 21px;
+    margin: 0 0 51px;
+}
+.header-deals{
+    display: inline;
+    letter-spacing: -0.42px;
+    font-weight: 700;
+    gap: normal;
+    line-height: 32px;
+}
