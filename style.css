@@ -253,6 +253,195 @@ header nav ul li {
 /*----------------funding------------*/
 
 .latest-fund-header {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(2, min-content);
+    justify-content: center;
+    gap: 4rem;
+    /* width: 100%; */
+    padding-left: 25%;
+    padding-right: 60%;
+    /* margin-right: 50%; */
+    position: relative;
+    border: 1px solid green;
+    }
+
+    .latest-fund-container {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(autofit, minmax(30rem, 1fr));
+        grid-template-rows: min-content;
+        justify-content: center;
+        /* grid-column: 1 / 2;
+        grid-row: 2 / 3; */
+        width: 100%;
+        border: 1px solid blue;
+        /* padding-left: 25%; */
+        /* padding-right: -10%; */
+        margin-right: 400px;
+        margin-left: -300px;
+        padding-right: 210px;
+        padding-left: 200px;
+        }
+
+    .funding-1 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            border: 1px solid green;
+            }
+
+            
+    .funding-2 {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            border: 1px solid green;
+            }
+            
+    .funding-3 {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            border: 1px solid green;
+            }
+            
+    .funding-4 {
+            grid-column: 4 / 5;
+            grid-row: 1 / 2;
+            border: 1px solid green;
+            }
+
+    .fund-header {
+                justify-content: space-between;
+                align-items: baseline;
+                }
+                
+    .fund-header p {
+                font-size: 3rem;
+                font-weight: 900;
+                align-self: flex-start;
+                color: orangered;
+                position: relative;
+                }
+
+                .latest-fund-header-links a {
+                    color: orangered;
+                    font-size: 1.6rem;
+                    padding: 0 2rem;
+                    text-decoration: none;
+                    margin-top: 4rem;
+                    text-align: left;
+                    }
+                    
+                    .fund-header p {
+                    margin-top: 0;
+                    margin-left: 1rem;
+                    } 
+                    
+                    .latest-fund-header-links a:not(:last-child) {
+                        border-right: 1px solid orangered;
+                        }
+                        
+                        .funding-article {
+                        width: 15vw;
+                        }
+                        
+                        .funding-article:not(:last-child) {
+                        margin-right: 0.7rem;
+                        }
+                        
+                        .funding-top {
+                        position: relative;
+                        }
+                        
+                        .funding-top-1 {
+                        width: 100%;
+                        height: 4.5rem;
+                        background-color: orangered;
+                        position: relative;
+                        z-index: 1;
+                        }
+                        
+                        .funding-top-2 {
+                        width: 100%;
+                        height: 8rem;
+                        background-color: var(--color-orange-light);
+                        position: relative;
+                        z-index: 1;
+                        }
+                        
+                        .funding-top-2 h3 {
+                        position: absolute;
+                        top: 2rem;
+                        left: 8.5rem;
+                        font-weight: 900;
+                        font-size: 1.8rem;
+                        }
+                        
+                        .funding-top-2 p {
+                        position: absolute;
+                        top: 4.5rem;
+                        left: 8.5rem;
+                        font-size: 1.2rem;
+                        text-transform: uppercase;
+                        color: rgba(0, 0, 0, 0.4);
+                        }
+                        
+                        .funding-top-1 h2 {
+                        position: absolute;
+                        top: 0.9rem;
+                        left: 8.5rem;
+                        font-size: 1.8rem;
+                        color: white;
+                        font-weight: 900;
+                        }
+                        
+                        .funding-top img {
+                        position: absolute;
+                        top: 1rem;
+                        left: 1rem;
+                        z-index: 10;
+                        }
+                        
+                        .funding-content {
+                        padding: 1.5rem;
+                        font-size: 1.6rem;
+                        background-color: var(--color-orange-lighter);
+                        }
+                        
+                        .funding-content-top p {
+                        color: rgba(0, 0, 0, 0.7);
+                        margin-bottom: 1.5rem;
+                        }
+                        
+                        .funding-content-top p i {
+                        margin-right: 1rem;
+                        }
+                        
+                        .funding-content-top {
+                        position: relative;
+                        margin-bottom: 4rem;
+                        }
+                        
+                        .funding-content-top::before {
+                        content: "";
+                        width: 100%;
+                        height: 1px;
+                        position: absolute;
+                        left: -0.7rem;
+                        bottom: -2rem;
+                        background-color: orangered;
+                        }
+                        
+                        .funding-content-bottom p {
+                        color: rgba(0, 0, 0, 0.6);
+                        font-size: 1.4rem;
+                        line-height: 1.8;
+                        }
+                        
+                        .funding-content-bottom p span {
+                        color: rgba(0, 0, 0, 0.4);
+                        }
+
+/* .latest-fund-header {
     width: 75%;
     margin: 3% auto;
   }
@@ -312,7 +501,7 @@ header nav ul li {
     padding: 0 0 0 2%;
     line-height: 20px;
     font-size: 1em;
-  }
+  } */
 
 /* ----------------- Popular Section ----------------- */
 .most-popular {
