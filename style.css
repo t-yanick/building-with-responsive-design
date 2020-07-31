@@ -834,53 +834,49 @@ display: flex;
   }
 
   .footer-container {
-      display: flex;
-      border: 1px solid red;
+      /* display: flex; */
+      text-align: center;
+      border: 2px solid black;
+      padding: 2% 0 ;
       justify-content: center;
       background-color: hsl(0, 0%, 7%);
       height: 30rem;
       align-items: center;
       line-height: 40px;
-      justify-content: ;
   }
 
   .wrapper {
       justify-self: center;
       flex-direction: column;
-      border: 1px solid yellow;
       width: 90%;
       justify-content: center;
       align-items: center;
   }
 
   .footer-links-social {
-      border: 1px solid indigo;
       width: 85%;
-      align-items: center;
-      justify-content: center;
-      margin: 0 0 21px;
+      margin: 10px;
   }
-
-  .footer-links-social a {
-    background: white;
-    width: 50px;
-    height: 50px;
+/* 
+  .footer-links-social  a {
+    width: 500px;
+    height: 500px;
     border-radius: 20%;
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
     padding: 30px;
-  }
+  } */
 
-  .footer-links-social i .fa {
-    display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0px 0px 2px #888;
-    padding: 0.5em 0.6em;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-}
+  .footer-links-social div {   
+      display: inline-block;    
+      background: rgb(110, 110, 110);    
+      border-radius: 100%;    
+      width: 50px;    
+      height: 50px;    
+      color: white;      
+
+    }
 
   /* .footer-links-social i {
       width: 300px;
@@ -891,7 +887,6 @@ display: flex;
 
   .footer-links-menu {
       width: 85%;
-      border: 1px solid orange;
       justify-content: center;
   }
 
@@ -906,3 +901,19 @@ display: flex;
       text-align: center;
       text-transform: uppercase;
   }
+
+  .footer-legal{
+      background-color: hsl(0, 0%, 0%);
+      height: 100px;
+      text-align: center;
+      color: white;
+      font-size: 13px;
+      justify-items: center;
+  }
+  .footer-legal p {
+    color: white;
+    font-size: 13px;
+    justify-content: center;
+    line-height: 19px;
+    padding-top: 40px;
+}
