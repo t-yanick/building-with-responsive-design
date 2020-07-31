@@ -11,6 +11,8 @@
 
 <body>
     <header>
+        <!--Top Nav bar-->
+        <div class="main-nav flex-row">
         <nav class="nav-1">
             <ul>
                 <li><a href="#">News</a></li>
@@ -19,34 +21,43 @@
                 <li><a href="#">AMAs</a></li>
                 <li><a href="#">Spaces</a></li>
                 <li><a href="#">Terms & Conditions</a></li>
-                <div class="right-nav-1">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Advertise</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </div>
             </ul>
         </nav>
-
-    </header>
-    <div>
-        <nav class="nav-2">
+        <nav class="right-nav-1">
             <ul>
-                <li><a href="#">LATEST</a></li>
-                <li><a href="#">HARD FORK</a></li>
-                <li><a href="#">PLUGGED</a></li>
-                <li><a href="#">README</a></li>
-                <li><a href="#">GROWTH QUARTERS</a></li>
-                <li><a href="#">NEURAL</a></li>
-                <div class="search">
-                    <li>
-                        <i class="search fa fa-search" aria-hidden="true"></i>
-                        <!--a class="search-icon" href="#"></a-->
-                    </li>
-                </div>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
     </div>
+    </header>
+
+    <!--Second Nav bar-->
+    <div class="nav-2 flex-row">
+        <a href=""><img id="logo" src="logo" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">LATEST</a></li>
+                    <li><a href="#">HARD FORK</a></li>
+                    <li><a href="#">PLUGGED</a></li>
+                    <li><a href="#">README</a></li>
+                    <li><a href="#">GROWTH QUARTERS</a></li>
+                    <li><a href="#">NEURAL</a></li>
+                </ul>
+            </nav>
+        <div class="search flex-row">
+            <div>
+                <i class="search fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div id="mobile-menu">   
+                <i class="fa fa-bars fa-2x" aria-hidden="true">
+                </i>         
+            </div>
+        </div>
+
+    <!--Header section-->
     <section class="header-articles">
         <div class="grid-1">
             <a href="#">
@@ -85,9 +96,10 @@
     </section>
 
     <!--latest News Section-->
-    <p><a href="#">Latest News ></a></p>
+   
 
     <section class="latest-news">
+        <p><a href="#">Latest News ></a></p>
         <div class="l1">
             <p><a href="#"></a>Kardashian has a better stock portfolio than Warren Buffett</a></p>
             <span>David Canellis18 minutes ago</span>
