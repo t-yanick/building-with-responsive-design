@@ -252,61 +252,69 @@ header nav ul li {
 
 /*----------------funding------------*/
 
-.latest-fund-header {
+/* .latest-fund-header {
     display: grid;
     grid-template-columns: max-content;
     grid-template-rows: repeat(2, min-content);
     justify-content: center;
-    gap: 4rem;
+    gap: 4rem; */
     /* width: 100%; */
-    padding-left: 25%;
-    padding-right: 60%;
+    /* padding-left: 25%;
+    padding-right: 60%; */
     /* margin-right: 50%; */
-    position: relative;
+    /* position: relative;
     border: 1px solid green;
-    }
+    } */
 
     .latest-fund-container {
         display: grid;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-        grid-template-columns: repeat(autofit, minmax(30rem, 1fr));
-        grid-template-rows: min-content;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* grid-template-columns: repeat(autofit, minmax(30rem, 1fr)); */
+        /* grid-template-rows: min-content; */
+        /* justify-content: center; */
         /* grid-column: 1 / 2;
         grid-row: 2 / 3; */
-        width: 100%;
+        width: 1160px;
         border: 1px solid blue;
+        grid-gap: 20px;
         /* padding-left: 25%; */
         /* padding-right: -10%; */
-        margin-right: 400px;
-        margin-left: -300px;
-        padding-right: 210px;
-        padding-left: 200px;
+        /* /* margin-right: 400px; */
+        /* margin-left: -300px; * */
+        /* padding-right: 210px; */
+        padding-left: 150px;
         }
 
     .funding-1 {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
             border: 1px solid green;
+            padding: 12px;
+            width: 294px;
             }
 
-            
     .funding-2 {
             grid-column: 2 / 3;
             grid-row: 1 / 2;
             border: 1px solid green;
+            padding: 12px;
+            width: 294px;
             }
             
     .funding-3 {
             grid-column: 3 / 4;
             grid-row: 1 / 2;
             border: 1px solid green;
+            padding: 12px;
+            width: 294px;
             }
             
     .funding-4 {
             grid-column: 4 / 5;
             grid-row: 1 / 2;
             border: 1px solid green;
+            padding: 12px;
+            width: 294px;
             }
 
     .fund-header {
@@ -328,8 +336,14 @@ header nav ul li {
                     padding: 0 2rem;
                     text-decoration: none;
                     margin-top: 4rem;
-                    text-align: left;
                     }
+
+                  .latest-fund-header-links{
+                    width: 40%;
+                    text-align: end;
+                    margin-bottom: 24px;
+                   
+                  }
                     
                     .fund-header p {
                     margin-top: 0;
@@ -362,8 +376,8 @@ header nav ul li {
                         
                         .funding-top-2 {
                         width: 100%;
-                        height: 8rem;
-                        background-color: var(--color-orange-light);
+                        height: 7rem;
+                        background-color: #FFECE8;
                         position: relative;
                         z-index: 1;
                         }
@@ -404,7 +418,7 @@ header nav ul li {
                         .funding-content {
                         padding: 1.5rem;
                         font-size: 1.6rem;
-                        background-color: var(--color-orange-lighter);
+                        background-color: #FFFAF7;
                         }
                         
                         .funding-content-top p {
