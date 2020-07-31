@@ -89,7 +89,6 @@ header nav ul li {
     top: 0;
     left: 0;
     z-index: 99;
-    border: 2px solid red;
     justify-content: left;
     padding-top: 12px;
     font-size: larger;
@@ -129,7 +128,7 @@ header nav ul li {
       "grid-1 grid-1 grid-2"
       "grid-1 grid-1 grid-3";
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 10px;
     grid-gap: 10px;  
 }
 .grid-1{
@@ -149,28 +148,28 @@ header nav ul li {
     line-height: 40px;
   }
   
-  .grid-2 h1,
-  .grid-3 h1 {
+  .grid-2 h2,
+  .grid-3 h2 {
     font-size: 23px;
     color: white;
-    line-height: 30px;
-  }
-  
-  .grid-1 p,
-  .grid-2 p,
-  .grid-3 p {
-    color: lightgray;
-    font-size: smaller;
-    margin-top: 10px;
+    line-height: 30px;  
   }
 
-  /* .grid-1 a,
-  .grid-2 a,
-  .grid-3 a {
+  .grid-2 h2,
+  .grid-3 h2 {
+    font-size: smaller;
+    margin-bottom: 10px;
+    color: white;
+    padding-top: 50px;
+    font-size: x-large;
+    }
+
+  .grid-1 p{
     color: lightgray;
-    text-decoration: none;
-  } */
-  
+    font-size: small;
+    color: white;
+    }
+
 .grid-2 {
     background-image: linear-gradient(rgb(255, 255, 255, 0.1), black), url("../images/image (1).png");
     background-size: cover;
@@ -194,135 +193,62 @@ header nav ul li {
 
 /*-------------------End of Main Article --------------------------*/
 
-.latest-news {
-    display: grid;
-    width: 95%;
-    height: 500px;
-    grid-template-rows: 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "l1 l2 l3 l4" "l5 l6 l7 l8";
-    gap: 10px;
-    margin: 0 auto;
-    grid-gap: 10px; 
+/*-------------------Latest News section --------------------------*/
+.latest-head{
+  margin-top: 50px;
+  padding: 20px;
 }
 
-
-.l1 {
-    background-image: url("../images/1.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+.latest-head a{
+  display: inline;
+  text-decoration: none;
+  color: hsl(9, 100%, 57%);
+  font-weight: 700;
+  font-size: 28px;
 }
-.l2 {
-    background-image: url("../images/2.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.l3 {
-    background-image: url("../images/3.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.l4 {
-    background-image: url("../images/4.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-.l5 {
-    background-image: url("../images/5.png");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.l6 {
-    background-image: url("../images/6.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.l7 {
-    background-image: url("../images/7.jpeg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.l8 {
-    background-image: url("../images/img.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-/* .latest-fund{
-    color: hsl(0, 0%, 33%);
-    font-size: 14px;
-    gap: normal;
-    line-height: 21px;
-    margin: 0 0 51px;
-}
-.header-deals{
-    display: inline;
-    letter-spacing: -0.42px;
-    font-weight: 700;
-    gap: normal;
-    line-height: 32px;
+.latest-head a:hover{
+  color: black;
 }
 
-.latest-fund-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 2% 0;
-    width: 100%;
-    padding: 10px;
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "col1" "col2" "col3" "col4" "col5" "col6" "col6" "col7" "col8";
+  margin: 10px;
+  padding: 10px;
 }
 
-.latest-fund-header h2 {
-    color: orangered;
+.gallery img{
+  width: 300px;
+  background-size: cover;
+  height: 230px;
+  cursor: pointer;
+  margin-bottom: 8px;
 }
 
-.latest-fund-header-links {
-    display: flex;
-    justify-content: space-around;;
+.sub-article{
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+  display: inline;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
 }
 
-.latest-fund-header-links a {
-    text-decoration: none;
+.gallery .sub-article:hover{
+  color: hsl(9, 100%, 57%);
 }
 
-.latest-fund-header-links li a {
-    text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    /* text-decoration: none; */
+.gallery p{
+  margin-top: 5px;
+  color: grey;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 20px;
 }
-
-.latest-fund-header h2 a, 
-.latest-fund-header ul li a {
-    text-decoration: none;
-    color: orangered;
-    list-style: none;
-}
-
-.latest-fund-header h2 a, 
-.latest-fund-header ul li a:hover {
-    color: black;
-}
-
-.latest-fund-header-links ul li {
-    list-style: none;
-    margin: 10px;
-    padding: 10px;
-    justify-content: space-between;
-} */
+/*-------------------End of Latest News section --------------------------*/
 
 /*----------------funding------------*/
 
@@ -388,219 +314,6 @@ header nav ul li {
     font-size: 1em;
   }
 
-  /* .popular{
-  display: grid;
-  height: 50px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px; 
-  padding-bottom: 2000px;  
-  }
-  .popular-1{
-    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    background-size: 100% 100%;
-
-  }
-  
-  .popular-2 {
-    background-image: url("../images/Social-media-hed-image-796x419.jpg");
-    background-size: 100% 100%;
-  }
-  .popular-3 {
-    background-image: url("../images/222.png");
-    background-size: 100% 100%;
-  }
-  .popular-4 {
-    background-image: url("../images/weed_tech-796x417.jpg");
-    background-size: 100% 100%;
-  }
-  .popular-5 {
-    background-image: url("../images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
-    background-size: 100% 100%;
-  }
-  .popular-6 {
-    background-image: url("../images/img.jpg");
-    background-size: 100% 100%;
-  }
-  .popular-7 {
-    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    background-size: 100% 100%;
-  }
-  .popular-8 {
-    background-image: url("../images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
-    background-size: 100% 100%;
-  }
-  .popular-9 {
-    background-image: url("../images/bitcoin_today-header_bitcoin_today.jpg");
-    background-size: 100% 100%;
-  }
-.popular-title1 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title1 a:hover{
-    color: black;
-}
-.popular-title1 ul li{
- list-style-type: none;
-}
-
-.popular-title1 ul a{
- text-decoration: none;
-}
-
-.popular-title2 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title2 a:hover{
-    color: black;
-}
-.popular-title2 ul li{
- list-style-type: none;
-}
-
-.popular-title2 ul a{
- text-decoration: none;
-}
-.popular-title3 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title3 a:hover{
-    color: black;
-}
-.popular-title3 ul li{
- list-style-type: none;
-}
-
-.popular-title3 ul a{
- text-decoration: none;
-}
-.popular-title4 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title4 a:hover{
-    color: black;
-}
-.popular-title4 ul li{
- list-style-type: none;
-}
-
-.popular-title4 ul a{
- text-decoration: none;
-}
-.popular-title5 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title5 a:hover{
-    color: black;
-}
-.popular-title5 ul li{
- list-style-type: none;
-}
-
-.popular-title5 ul a{
- text-decoration: none;
-}
-.popular-title6 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title5 a:hover{
-    color: black;
-}
-.popular-title6 ul li{
- list-style-type: none;
-}
-
-.popular-title6 ul a{
- text-decoration: none;
-}
-.popular-title7 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title7 a:hover{
-    color: black;
-}
-.popular-title7 ul li{
- list-style-type: none;
-}
-
-.popular-title7 ul a{
- text-decoration: none;
-}
-.popular-title8 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title8 a:hover{
-    color: black;
-}
-.popular-title8 ul li{
- list-style-type: none;
-}
-
-.popular-title8 ul a{
- text-decoration: none;
-}
-.popular-title9 {
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    height: 100%;
-}
-.popular-title9 a:hover{
-    color: black;
-}
-.popular-title9 ul li{
- list-style-type: none;
-}
-
-.popular-title9 ul a{
- text-decoration: none;
-}
-.sub-text a{
-    text-decoration: none;
-}
-.sub-text{
-display: flex;
- justify-content: space-between;
- padding-top: 2px;
- background-color: #FFFAF7;
- height: 100px;
- justify-content: center;
- 
-}
-.sub-text img{
-    width: 80px;
-    height: 80px;
-}
-.popular-title1 p{
-    align-items: center;
-    margin-bottom: 0;
-    margin-top: 0;
-} */
-
 /* ----------------- Popular Section ----------------- */
 .most-popular {
     /* display: flex; */
@@ -608,7 +321,6 @@ display: flex;
     align-items: center;
     margin-top: 3rem;
     width: 100%;
-    /* overflow: hidden; */
   }
   
   .most-popular-1,
@@ -826,16 +538,6 @@ display: flex;
       width: 85%;
       margin: 10px;
   }
-/* 
-  .footer-links-social  a {
-    width: 500px;
-    height: 500px;
-    border-radius: 20%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 30px;
-  } */
 
   .footer-links-social div {   
       display: inline-block;    
@@ -844,15 +546,7 @@ display: flex;
       width: 50px;    
       height: 50px;    
       color: white;      
-
     }
-
-  /* .footer-links-social i {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      text-align: center;
-  } */
 
   .footer-links-menu {
       width: 85%;
@@ -878,6 +572,7 @@ display: flex;
       color: white;
       font-size: 13px;
       justify-items: center;
+      width: 100%;
   }
   .footer-legal p {
     color: white;
