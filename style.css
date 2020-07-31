@@ -16,8 +16,19 @@ html {
   }
 
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* position: relative; */
+  }
+
+  footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 250px;
+  }
+  
+  main {
     position: relative;
+    top: 10px;
   }
 
   .flex {
@@ -111,7 +122,7 @@ header nav ul li {
 /*-------------------Main Article --------------------------*/
 .header-articles{
     display: grid;
-    width: 95%;
+    width: 99.5%;
     height: 500px;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -122,57 +133,66 @@ header nav ul li {
     grid-gap: 10px;  
 }
 .grid-1{
-    background-image: url("../images/9.jpeg");
+    background-image: radial-gradient(farthest-corner at 80% 30%, rgb(255, 255, 255, 0.5), rgb(233, 24, 24, 0.5), black), url("../images/9.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     grid-area: grid-1;
     width: 100%;
     height: 100%;
-    padding: 2% 2% 1% 2%;
+    padding: 45% 2% 0 2%;
+
 }
 .grid-1 h1 {
-    font-size: 2.2em;
+    font-size: 35px;
+    color: white;
+    line-height: 40px;
   }
   
-  .grid-2 h2,
-  .grid-3 h2 {
-    font-size: 1.5em;
+  .grid-2 h1,
+  .grid-3 h1 {
+    font-size: 23px;
+    color: white;
+    line-height: 30px;
   }
   
-  .grid-1 h1,
-  .grid-2 h2,
-  .grid-3 h2 {
+  .grid-1 p,
+  .grid-2 p,
+  .grid-3 p {
     color: lightgray;
+    font-size: smaller;
+    margin-top: 10px;
   }
 
-  .grid-1 a,
+  /* .grid-1 a,
   .grid-2 a,
   .grid-3 a {
     color: lightgray;
     text-decoration: none;
-  }
+  } */
   
 .grid-2 {
-    background-image: url("../images/image (1).png");
+    background-image: linear-gradient(rgb(255, 255, 255, 0.1), black), url("../images/image (1).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     grid-area: grid-2;
     width: 100%;
     height: 100%;
-    padding: 2% 2% 1% 2%;
+    padding: 16% 2% 0 2%;
 }
 .grid-3 {
-    background-image: url("../images/image.png");
+    background-image: linear-gradient(rgb(255, 255, 255, 0.1), black), url("../images/image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     grid-area: grid-3;
     width: 100%;
     height: 100%;
-    padding: 2% 2% 1% 2%;
+    padding: 16% 2% 0 2%;
 }
+
+/*-------------------End of Main Article --------------------------*/
 
 .latest-news {
     display: grid;
@@ -185,7 +205,7 @@ header nav ul li {
     margin: 0 auto;
     grid-gap: 10px; 
 }
-/*-------------------End of Main Article --------------------------*/
+
 
 .l1 {
     background-image: url("../images/1.jpg");
