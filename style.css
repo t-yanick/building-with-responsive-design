@@ -414,7 +414,6 @@ header nav ul li {
     .latest-fund-container {
         display: grid;
         width: 97%;
-        border: 1px solid blue;
         gap: -50px;
         padding-left: 70px;
         overflow: hidden;
@@ -423,29 +422,25 @@ header nav ul li {
     .funding-1 {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
-            border: 1px solid green;
+            width: 97%;
             }
 
     .funding-2 {
             grid-column: 2 / 3;
             grid-row: 1 / 2;
-            border: 1px solid green;
+            width: 97%;
             }
             
     .funding-3 {
             grid-column: 3 / 4;
             grid-row: 1 / 2;
-            border: 1px solid green;
-            /* padding: 12px;
-            width: 294px; */
+            width: 97%;
             }
             
     .funding-4 {
             grid-column: 4 / 5;
             grid-row: 1 / 2;
-            border: 1px solid green;
-            /* padding: 12px;
-            width: 294px; */
+            width: 97%;
             }
 
     .fund-header {
@@ -586,7 +581,106 @@ header nav ul li {
                         .funding-content-bottom p span {
                         color: rgba(0, 0, 0, 0.4);
                         }
-/* --------End of Latest News Media Query---------- */
+/* --------Start of funding section Media Query---------- */
+
+@media screen and (min-width: 768px) and (max-width: 10240px){
+
+  .latest-fund-container {
+    display: grid;
+    width: 97%;
+    gap: -50px;
+    padding-left: 70px;
+    overflow: hidden;
+    }
+
+.funding-1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 97%;
+        }
+
+.funding-2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 97%;
+        }
+        
+.funding-3 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        /* padding: 12px;
+        width: 294px; */
+        width: 97%;
+        }
+        
+.funding-4 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        /* padding: 12px;
+        width: 294px; */
+       margin-top: 20px;
+       width: 97%;
+        }
+
+        .latest-fund-header-links a {
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+          line-height: 2px;
+        }
+
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px){
+  .latest-fund-container {
+    display: grid;
+    width: 97%;
+    gap: -50px;
+    padding-left: 70px;
+    overflow: hidden;
+    }
+
+    .funding-1 {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      width: 97%;
+      }
+
+.funding-2 {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      width: 97%;
+      }
+      
+.funding-3 {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+      width: 97%;
+      /* padding: 12px;
+      width: 294px; */
+      }
+      
+.funding-4 {
+      grid-column: 1 / 2;
+      grid-row: 5 / 6;
+      width: 97%;
+      /* padding: 12px;
+      width: 294px; */
+      }
+
+      /* .latest-fund-header-links a {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        line-height: 2px;
+      } */
+
+      .funding-p, .latest-fund-header-links {
+        display: flex;
+        flex-direction: column;
+      }
+}
 
 /* ----------------- Popular Section ----------------- */
 .most-popular {
@@ -748,6 +842,34 @@ header nav ul li {
     left: 0;
   }
 
+ /* ----------------- Popular Section Media queries ----------------- */
+
+ @media screen and (min-width: 768px) and (max-width: 10240px) {
+  .single-popular {
+    width: 45vw;
+    margin: 0 1rem;
+  }
+
+  .hidding-p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .most-popular-1,
+  .most-popular-2,
+  .most-popular-3 {
+    flex-direction: column;
+  }
+
+  .single-popular {
+    width: 90%;
+    margin: 2rem;
+  }
+}
+
+/*------------Latest Deals Section------------*/
+
   .latest-deals {
     padding: 6rem 0;
     flex-direction: column;
@@ -787,6 +909,9 @@ header nav ul li {
     margin-right: 1rem;
     font-weight: 700;
   }
+
+ 
+ /*------------Footer Section------------*/
 
   .footer-container {
       /* display: flex; */
