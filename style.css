@@ -84,7 +84,7 @@ nav {
   font-weight: lighter;
   margin-left: 180px;
   margin-bottom: 400px;
-  position: relative;
+  position: absolute;
 }
 
 .section1-1-heading-title-link {
@@ -886,6 +886,11 @@ section {
     text-align: center;
     padding-top: 8px;
   }
+  #tnw-logo{
+  height: 80px;
+  padding-left: 106px;
+  position: absolute;
+  }
 
   .nav-1child {
     padding-left: 20px;
@@ -1273,6 +1278,7 @@ section {
   .f4-price2 {
     font-size: 13px;
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -1676,8 +1682,9 @@ section {
     margin-bottom: 10px;
   }
 
+  .f4-price2,
   .f4-price1 {
     font-size: 13px;
   }
-}
-\n
+
+  }
