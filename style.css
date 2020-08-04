@@ -20,6 +20,9 @@ nav {
 .nav-2 .nav-2child {
   display: none;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .nav-2 .nav-img {
@@ -35,6 +38,11 @@ nav {
   text-align: center;
   padding-top: 10px;
   border: 1px solid rgb(226, 224, 224);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .search-icon {
@@ -57,15 +65,17 @@ nav {
 .section1-1-heading {
   font-size: 20px;
   line-height: 20px;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 155px;
+  /* margin-bottom: -200px; */
+  /* padding-bottom: -200px; */
   font-weight: 700;
   letter-spacing: -0.84px;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   gap: normal;
   position: relative;
-  top: 40px;
+  /* top: 0; */
+
 }
 
 .align-date {
@@ -76,14 +86,17 @@ nav {
   color: #fff;
   font-size: 19px;
   font-weight: lighter;
-  margin-right: 11px;
+  margin-left: 180px;
+  margin-bottom: 400px;
+  position: relative;
 }
 
 .section1-1-heading-title-link {
   text-decoration: none;
   color: #fff;
   position: relative;
-  top: 75px;
+  margin-top: 155px;
+  /* top: 145px; */
   font-weight: lighter;
   font-size: 23px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -96,9 +109,10 @@ nav {
 .section1-flex-column {
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   top: 175px;
   padding: 5px;
+  /* height: 500px; */
 }
 
 .flexglue {
@@ -791,23 +805,29 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100px;
+  height: 150px;
   position: sticky;
-  background-color: #262626;
+  background-color: #262626; 
 }
 
 .favicons-icon {
   background: #a9a9a9;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-right: 5px;
   margin-left: 5px;
+  text-align: center;
 }
 
-.footer-nav1 {
-  display: flex;
+.footer-nav1 ul  {
+  display: flex; 
   justify-content: space-around;
+  text-decoration: none;
+}
+
+.footer-nav1 li {
+  list-style: none;
 }
 
 .footer-link {
@@ -823,6 +843,7 @@ section {
 
 .footer-nav2 {
   display: flex;
+  margin-top: 10px;
 }
 
 .footer-section2 {
@@ -851,7 +872,7 @@ section {
 .lower-footer {
   position: relative;
   top: 30px;
-  margin: 0 0 0 0;
+margin-top:30px ;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
