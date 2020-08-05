@@ -687,6 +687,7 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+  
   .latest-news-sec {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -737,6 +738,7 @@ footer {
 }
 
 @media only screen and (max-width: 765px) {
+
   nav {
     display: none;
   }
@@ -834,5 +836,5 @@ footer {
   .f-title ul {
     display: block;
   }
-  
+
 }
