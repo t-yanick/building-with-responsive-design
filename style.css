@@ -454,7 +454,7 @@ footer {
 }
 
 .second-layer {
-  background: linear-gradient rgba(255, 0, 0, 0), rgba(0, 0, 0, 1);
+  background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
   position: relative;
   padding-top: 75%;
 }
@@ -732,7 +732,6 @@ footer {
   .headlines {
     font-size: 20px;
   }
-
 }
 
 @media only screen and (max-width: 765px) {
@@ -834,4 +833,5 @@ footer {
   .f-title ul {
     display: block;
   }
+  
 }
