@@ -671,7 +671,7 @@ footer {
 }
 
 #overwrite {
-  margin: 0;                                                                                                              
+margin: 0;                                                                                                              
 }
 
 .nav-2-left-holder {
@@ -717,7 +717,6 @@ footer {
     z-index: 10;  
     height: 62px;
     margin-top: -31px; 
-
   }
 
   .nav-2 ul {
@@ -866,8 +865,6 @@ footer {
 
   .footer-2 span {
     display: block;
-    /* flex-direction: column; */
-
 }
 
 }
