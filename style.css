@@ -4,6 +4,7 @@
   padding: 0;
   overflow: none;
 }
+
 nav {
   position: absolute;
   top: 0px;
@@ -13,19 +14,26 @@ nav {
   justify-content: space-between;
   z-index: 10;
 }
-nav ul, footer ul {
+
+nav ul,
+footer ul {
   display: flex;
   list-style-type: none;
   margin: 0px 10px;
 }
-nav li, footer li {
+
+nav li,
+footer li {
   color: rgb(163, 162, 162);
   margin: 8px;
   font-size: 13px;
 }
-nav li:hover, footer li:hover {
+
+nav li:hover,
+footer li:hover {
   color: white;
 }
+
 .nav-2 {
   margin: 31px 0 0 0;
   display: flex;
@@ -35,48 +43,61 @@ nav li:hover, footer li:hover {
   z-index: 100;
   top: 0;
 }
+
 .nav-2 ul {
   display: flex;
   list-style-type: none;
   margin: 0 5px;
 }
+
 .nav-2 li {
   color: rgb(163, 162, 162);
   margin: 15px 10px;
   font-size: 14px;
 }
+
 .nav-2 li:hover {
   color: black;
 }
+
 .nav-2-right {
   margin: 0 5px;
   display: flex;
 }
+
 .nav-2-icon {
   color: rgb(163, 162, 162);
   padding: 15px 15px;
   border-right: 1px solid lightgrey;
 }
+
 .nav-2-icon-2 {
   color: #f42;
   padding: 15px 15px;
   border-left: 1px solid lightgrey;
 }
+
 .nav-2-icon:hover {
   color: black;
 }
-.latest-news, .latest-deals {
+
+.latest-news,
+.latest-deals {
   max-width: 1176px;
   margin: 20px auto;
   padding: 0 20px;
 }
+
 h2 {
   color: #f42;
 }
+
 h2:hover {
   color: black;
 }
-.latest-news-sec, .deal-items {
+
+.latest-news-sec,
+.deal-items {
   margin: 20px 0;
   display: grid;
   width: 100%;
@@ -85,11 +106,10 @@ h2:hover {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
+
 .images-head {
   width: 100%;
 }
-
-
 
 .tmw-logo {
   width: 30%;
@@ -105,129 +125,167 @@ h2:hover {
   width: 27%;
 }
 
-.news-title, .deals-title {
+.news-title,
+.deals-title {
   font-size: 16px;
   margin: 5px 0;
 }
-.news-title:hover, .deals-title:hover {
+
+.news-title:hover,
+.deals-title:hover {
   color: #f42;
   text-decoration: underline;
 }
+
 .news-source {
   display: flex;
   font-size: 13px;
   color: rgb(163, 162, 162);
 }
+
 .deals-source {
   display: flex;
 }
+
 .price {
   font-size: 13px;
   color: rgb(163, 162, 162);
 }
 
-.author, .price {
+.author,
+.price {
   margin-right: 10px;
 }
-.author:hover{
+
+.author:hover {
   color: black;
 }
+
 .img-1 {
   background-image: url("./images/1.jpg");
 }
+
 .img-2 {
   background-image: url("./images/3.jpg");
 }
+
 .img-3 {
   background-image: url("./images/4.jpg");
 }
+
 .img-4 {
   background-image: url("./images/5.png");
 }
+
 .img-5 {
   background-image: url("./images/6.jpg");
 }
+
 .img-6 {
   background-image: url("./images/7.jpeg");
 }
+
 .img-7 {
   background-image: url("./images/8.jpeg");
 }
+
 .img-8 {
   background-image: url("./images/111.jpg");
 }
+
 .images-head {
   width: 100%;
   padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
-.funding-sec, .groups {
+
+.funding-sec,
+.groups {
   max-width: 1176px;
   margin: 20px auto;
   padding: 0 20px;
 }
+
 .f-title {
   display: flex;
   justify-content: space-between;
 }
+
 .f-title ul {
   display: flex;
   list-style-type: none;
 }
+
 .f-title li {
   color: #f42;
   padding: 0 10px;
 }
+
 .f-title li:hover {
   color: black;
 }
+
 .left-border {
   border-left: 1px solid #f42;
 }
+
 .deal-1 {
   background-image: url("./images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
 }
+
 .deal-2 {
   background-image: url("./images/Apple-Amazon-Facebook-Google-hed-796x375.jpg");
 }
+
 .deal-3 {
   background-image: url("./images/bitcoin_today-header_bitcoin_today.jpg");
 }
+
 .deal-4 {
   background-image: url("./images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
 }
+
 .deal-5 {
   background-image: url("./images/Facebook-Discover-796x419.jpg");
 }
+
 .deal-6 {
   background-image: url("./images/222.png");
 }
+
 .deal-7 {
   background-image: url("./images/Legend-of-Korra-796x417.jpg");
 }
+
 .deal-8 {
   background-image: url("./images/product_38387_product_shots1.jpg");
 }
+
 .deal-holder {
   width: 100%;
   padding-top: 74.5%;
   background-size: cover;
   background-position: center;
 }
+
 footer {
   text-align: center;
 }
+
 .footer-2 {
   padding: 39px;
   background-color: black;
   color: #aaa;
   font-size: 12px;
 }
-.footer-2 img, .footer-2 a {
+
+.footer-2 img,
+.footer-2 a {
   height: 9px;
 }
-.icons > * {
+
+.icons>* {
   color: white;
   background-color: #333;
   border-radius: 50%;
@@ -235,24 +293,30 @@ footer {
   border: 1px solid #333;
   margin: 0px 8px;
 }
-.icons > *:hover {
+
+.icons>*:hover {
   background-color: #131313;
 }
+
 .icons {
   justify-content: center;
   display: flex;
 }
+
 .footer-list {
   display: flex;
   justify-content: center;
 }
-.footer-1 > * {
+
+.footer-1>* {
   padding: 15px 0;
 }
+
 .footer-1 {
-      background-color: #131313;
-      padding: 20px 0 10px 0;
+  background-color: #131313;
+  padding: 20px 0 10px 0;
 }
+
 .funding-info {
   margin: 20px 0;
   display: grid;
@@ -260,10 +324,12 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 25px;
 }
+
 .funding-box-title {
   height: 96.825px;
   position: relative;
 }
+
 .funding-box-title img {
   height: 60px;
   width: 60px;
@@ -273,42 +339,53 @@ footer {
   left: 0;
   display: block;
 }
+
 .title-up {
   background-color: #f42;
   color: White;
 }
+
 .title-down {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, .08);
 }
+
 .funding-box {
   background-color: #fffaf8;
 }
+
 .title-displacement {
   padding: 10.667px 16px 10.667px 84px;
 }
+
 .title-displacement h5 {
   color: grey;
   font-size: 12px;
   font-weight: 300;
 }
+
 .title-displacement h4 {
   font-size: 16px;
 }
-.mid-funding > * {
+
+.mid-funding>* {
   color: #555;
   padding: 5px 10px;
   font-size: 14px;
 }
+
 .mid-funding i {
   color: black;
   margin-right: 5px;
 }
-.mid-funding > *:hover {
+
+.mid-funding>*:hover {
   color: black;
 }
+
 .mid-funding {
   padding: 10px 0;
 }
+
 .footer-funding {
   border-top: 1px solid #f42;
   padding: 10px;
@@ -318,9 +395,11 @@ footer {
   color: #555;
   line-height: 20px;
 }
+
 .footer-funding span {
   color: #aaa;
 }
+
 .group-info {
   margin: 20px 0;
   display: grid;
@@ -329,9 +408,11 @@ footer {
   grid-column-gap: 25px;
   grid-row-gap: 50px;
 }
+
 .group-picture-1 {
   background-image: url("./images/bitcoin_today-header_bitcoin_today.jpg");
 }
+
 .group-picture {
   margin-top: 10px;
   width: 100%;
@@ -339,37 +420,45 @@ footer {
   background-position: 50%;
   z-index: 1;
 }
+
 .group-title-stuff {
   padding: 0 0 14px 14px;
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-.group-title-stuff > * {
+
+.group-title-stuff>* {
   color: white;
   padding-right: 14px;
 }
+
 .group-popular {
   font-size: 13px;
 }
+
 .group-title {
   font-size: 20px;
 }
+
 .group-author {
   font-size: 12px;
   margin-top: 6px;
 }
+
 .second-layer {
-  background: linear-gradient( rgba(255,0,0,0), rgba(0,0,0,1));
+  background: linear-gradient( rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
   position: relative;
   padding-top: 75%;
 }
+
 .after-image {
   display: flex;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, .06);
   margin: 2px 0;
   justify-content: space-between;
 }
+
 .after-image-image {
   min-width: 96px;
   max-width: 96px;
@@ -378,102 +467,131 @@ footer {
   background-position: 50%;
   z-index: 2;
 }
-.after-image > * {
+
+.after-image>* {
   color: #f42;
   font-size: 14px;
 }
+
 .after-head-text {
   margin: 10px 20px 0 10px;
 }
+
 .after-image-image-1 {
   background-image: url("./images/product_27377_product_shots1_image.jpg");
 }
+
 .after-image-latest {
   font-weight: 300;
 }
+
 .after-image-title {
   font-weight: 500;
 }
+
 .after-image-title:hover {
   text-decoration: underline;
 }
+
 .group-list ul {
   margin-left: 14px;
   line-height: 20px;
 }
+
 .group-list li {
   color: #f42;
   font-size: 12px;
   border-bottom: 1px solid #eee;
   padding: 8px;
 }
+
 .group-list span {
   color: #555;
   font-size: 13px;
 }
+
 .group-list span:hover {
   color: black;
 }
+
 .group-picture-2 {
   background-image: url("./images/Apple-Amazon-Facebook-Google-hed-796x375.jpg");
 }
+
 .after-image-image-2 {
   background-image: url("./images/product_27377_product_shots1_image.jpg");
 }
+
 .group-picture-3 {
   background-image: url("./images/ad.png");
 }
+
 .after-image-image-3 {
   background-image: url("./images/product_27533_product_shots1_image.jpg");
 }
+
 .group-picture-4 {
   background-image: url("./images/weed_tech-796x417.jpg");
 }
+
 .after-image-image-4 {
   background-image: url("./images/product_29456_product_shots1.jpg");
 }
+
 .group-picture-5 {
   background-image: url("./images/Social-media-hed-image-796x419.jpg");
 }
+
 .after-image-image-5 {
   background-image: url("./images/product_34441_product_shots1.jpg");
 }
+
 .group-picture-6 {
   background-image: url("./images/Facebook-Discover-796x419.jpg");
 }
+
 .after-image-image-6 {
   background-image: url("./images/product_35414_product_shot_wide.jpg");
 }
+
 .group-picture-7 {
   background-image: url("./images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
 }
+
 .after-image-image-7 {
   background-image: url("./images/product_38387_product_shots1.jpg");
 }
+
 .group-picture-8 {
   background-image: url("./images/1.jpg");
 }
+
 .after-image-image-8 {
   background-image: url("./images/product_41751_product_shots1.jpg");
 }
+
 .group-picture-9 {
   background-image: url("./images/Legend-of-Korra-796x417.jpg");
 }
+
 .after-image-image-9 {
   background-image: url("./images/product_41895_product_shots1.jpg");
 }
+
 .top-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 10px;
   padding: 10px;
 }
+
 .top-grid-1 {
   background-image: url("./images/9.jpeg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
 }
+
 .top-grid-2 {
   background-image: url("./images/1.jpg");
   width: 100%;
@@ -481,42 +599,50 @@ footer {
   background-size: cover;
   margin-bottom: 10px;
 }
+
 .top-grid-3 {
   background-image: url("./images/8.jpeg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
 }
+
 .child-sec {
-  background: linear-gradient( rgba(255,0,0,0), rgba(0,0,0,1));
+  background: linear-gradient( rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
   position: relative;
   padding-top: 40%;
   height: 3%;
   background-size: cover;
   width: 100%;
 }
+
 .head-text {
   position: absolute;
   bottom: 0;
   margin: 10px;
 }
+
 .head-text-title {
   color: white;
   font-size: 52px;
   margin-bottom: 10px;
 }
+
 .head-text-bottom {
   color: #555;
   font-size: 12px;
 }
+
 .headlines {
   color: white;
   font-size: 26px;
 }
+
 .headings {
   color: white;
   font-size: 16px;
 }
+
 .handi {
   position: fixed;
   bottom: 0;
@@ -529,13 +655,16 @@ footer {
   padding: 10px;
   z-index: 10;
 }
+
 .deal-title {
   display: flex;
   justify-content: space-between;
 }
+
 .deals-right {
   color: #f42;
 }
+
 .nav-img {
   background-color: red;
   padding: 11px 20px;
@@ -543,137 +672,137 @@ footer {
   width: 66px;
   margin: 0;
 }
+
 #overwrite {
   margin: 0;
 }
+
 .nav-2-left-holder {
   display: flex;
 }
-.hidden-1, .hidden-2 {
+
+.hidden-1,
+.hidden-2 {
   display: none;
 }
+
 #hidden-2 {
   display: none;
 }
+
 @media only screen and (max-width: 1024px) {
-.latest-news-sec {
-  grid-template-columns: repeat(3, 1fr);
-}
-.hidden-1 {
-  display: block;
-}
-
-.tmw-logo {
-  display: none;
-}
-
-.current-date {
-  display: none;
-}
-
-.handi {
-  margin: 0;
-  border-radius: 0;
-  font-size: 16px;
-  padding: 5px;
-}
-.to-hide-1 {
-  display: none;
-}
-.funding-info {
-  grid-template-columns: repeat(3, 1fr);
-}
-.group-info {
-  grid-template-columns: repeat(2, 1fr);
-}
-.deal-items {
-  grid-template-columns: repeat(3, 1fr);
-}
-.head-text-title {
-  font-size: 36px;
-}
-.headlines {
-  font-size: 20px;
-}
-}
-@media only screen and (max-width: 765px) {
-  nav {
-      display: none;
+  .latest-news-sec {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .deal-items {
-  grid-template-columns: repeat(1, 1fr);
+  .hidden-1 {
+    display: block;
   }
-
   .tmw-logo {
     display: none;
   }
-  
   .current-date {
     display: none;
   }
-
+  .handi {
+    margin: 0;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .to-hide-1 {
+    display: none;
+  }
+  .funding-info {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .group-info {
-  grid-template-columns: repeat(1, 1fr);
-}
-.funding-info {
-  grid-template-columns: repeat(1, 1fr);
-}
-.latest-news-sec {
-  grid-template-columns: repeat(1, 1fr);
-}
-.deal-adapt {
-  display: grid;
-  grid-template-columns: 1fr 6fr;
-}
-.deal-push {
-  margin-left: 10px;
-}
-.nav-2 ul {
-  display: none;
-}
-.nav-2 {
-  margin: 0;
-}
-#hidden-2 {
-  display: block;
-}
-.top-grid {
-  grid-template-columns: repeat(1, 1fr);
-  margin: 0 10px;
-}
-.head-text-title {
-  font-size: 20px;
-}
-.child-sec {
-  padding-top: 20%;
-}
-.top-grid-1 {
-  margin: 10px;
-}
-.top-grid-2 {
-  margin: 0 10px 10px 10px;
-}
-.top-grid-3 {
-  margin: 0 10px 10px 10px;
-}
-.latest-head {
-  display: grid;
-  grid-template-columns: 1fr 6fr;
-}
-.news-headlines {
-  margin-left: 10px;
-}
-.f-title {
-  display: block;
-}
-.left-border {
-  border-left: none;
-}
-.f-title li {
-  margin: 10px 0;
-}
-.f-title ul {
-  display: block;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .deal-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .head-text-title {
+    font-size: 36px;
+  }
+  .headlines {
+    font-size: 20px;
+  }
 }
 
+@media only screen and (max-width: 765px) {
+  nav {
+    display: none;
+  }
+  .deal-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tmw-logo {
+    display: none;
+  }
+  .current-date {
+    display: none;
+  }
+  .group-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .funding-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .latest-news-sec {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .deal-adapt {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
+  .deal-push {
+    margin-left: 10px;
+  }
+  .nav-2 ul {
+    display: none;
+  }
+  .nav-2 {
+    margin: 0;
+  }
+  #hidden-2 {
+    display: block;
+  }
+  .top-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px;
+  }
+  .head-text-title {
+    font-size: 20px;
+  }
+  .child-sec {
+    padding-top: 20%;
+  }
+  .top-grid-1 {
+    margin: 10px;
+  }
+  .top-grid-2 {
+    margin: 0 10px 10px 10px;
+  }
+  .top-grid-3 {
+    margin: 0 10px 10px 10px;
+  }
+  .latest-head {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
+  .news-headlines {
+    margin-left: 10px;
+  }
+  .f-title {
+    display: block;
+  }
+  .left-border {
+    border-left: none;
+  }
+  .f-title li {
+    margin: 10px 0;
+  }
+  .f-title ul {
+    display: block;
+  }
 }
