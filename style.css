@@ -88,6 +88,23 @@ h2:hover {
 .images-head {
   width: 100%;
 }
+
+
+
+.tmw-logo {
+  width: 30%;
+}
+
+.current-date {
+  position: absolute;
+  color: white;
+  float: right;
+  top: 0;
+  margin-left: 560px;
+  margin-bottom: 50px;
+  width: 27%;
+}
+
 .news-title, .deals-title {
   font-size: 16px;
   margin: 5px 0;
@@ -108,6 +125,7 @@ h2:hover {
   font-size: 13px;
   color: rgb(163, 162, 162);
 }
+
 .author, .price {
   margin-right: 10px;
 }
@@ -115,28 +133,28 @@ h2:hover {
   color: black;
 }
 .img-1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-1-9-516x270.png");
+  background-image: url("./images/1.jpg");
 }
 .img-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/handshake-3962172_960_720-405x270.jpg");
+  background-image: url("./images/3.jpg");
 }
 .img-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-samsungs-galaxy-watch-3-516x270.png");
+  background-image: url("./images/4.jpg");
 }
 .img-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Screenshot-2020-05-29-at-12.00.49-412x270.png");
+  background-image: url("./images/5.png");
 }
 .img-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-88-516x270.png");
+  background-image: url("./images/6.jpg");
 }
 .img-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/sale_29686_primary_image_wide-540x270.jpg");
+  background-image: url("./images/7.jpeg");
 }
 .img-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/google-photos-whatsapp-backup-516x270.jpg");
+  background-image: url("./images/8.jpeg");
 }
 .img-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-9-516x270.png");
+  background-image: url("./images/111.jpg");
 }
 .images-head {
   width: 100%;
@@ -168,28 +186,28 @@ h2:hover {
   border-left: 1px solid #f42;
 }
 .deal-1 {
-  background-image: url("https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg");
+  background-image: url("./images/a-female-office-worker-at-the-table-holding-papers-with-diagrams-796x531.jpg");
 }
 .deal-2 {
-  background-image: url("https://cdnp3.stackassets.com/278f4766db16b246a83ade07d6e32f9d96bb58a8/store/8756becc423f4a2009f0c1a8ff45b7f42163acbbb218d2793ee1ece9e131/sale_29427_primary_image.jpg");
+  background-image: url("./images/Apple-Amazon-Facebook-Google-hed-796x375.jpg");
 }
 .deal-3 {
-  background-image: url("https://cdnp1.stackassets.com/4b7cb9aceb3a4104fa4c3943e45aaf74c1e662dd/store/bab77c55457eed75e6e6db71a1e1777294ee774bfdb91648db70878ed013/sale_29685_primary_image.jpg");
+  background-image: url("./images/bitcoin_today-header_bitcoin_today.jpg");
 }
 .deal-4 {
-  background-image: url("https://cdnp3.stackassets.com/99d7d1e5ccb73bcde062e3916e2911421d061ae8/store/d14b6d2307dfa4481c65eb7b16ba2f90029feacc334febca7e3e206b31b4/sale_29690_primary_image.jpg");
+  background-image: url("./images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
 }
 .deal-5 {
-  background-image: url("https://cdnp3.stackassets.com/1e92f54e3984c22ee5038489509892cc35a5ef6a/store/03216828414317932febc3029b34c67f0a2e6987d44f0602357e9d9ec560/sale_28070_primary_image.jpg");
+  background-image: url("./images/Facebook-Discover-796x419.jpg");
 }
 .deal-6 {
-  background-image: url("https://cdnp1.stackassets.com/0eae207b358763b3824152b46d4f54cfeae463c4/store/7ddede2e8151e29ec555936b55156a3f60008071e085109629f9334318fc/sale_29444_primary_image.jpg");
+  background-image: url("./images/222.png");
 }
 .deal-7 {
-  background-image: url("https://cdnp1.stackassets.com/e94d45be2a29dcc4fc24fba5608407ed2c3dc6ea/store/5ea442f6f281c008c203dbb7dea70cca8ef35fe6415ca1e8d1136e9bbc8b/sale_29762_primary_image.jpg");
+  background-image: url("./images/Legend-of-Korra-796x417.jpg");
 }
 .deal-8 {
-  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  background-image: url("./images/product_38387_product_shots1.jpg");
 }
 .deal-holder {
   width: 100%;
@@ -312,7 +330,7 @@ footer {
   grid-row-gap: 50px;
 }
 .group-picture-1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-image: url("./images/bitcoin_today-header_bitcoin_today.jpg");
 }
 .group-picture {
   margin-top: 10px;
@@ -368,7 +386,7 @@ footer {
   margin: 10px 20px 0 10px;
 }
 .after-image-image-1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
+  background-image: url("./images/product_27377_product_shots1_image.jpg");
 }
 .after-image-latest {
   font-weight: 300;
@@ -397,52 +415,52 @@ footer {
   color: black;
 }
 .group-picture-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-79-368x276.png");
+  background-image: url("./images/Apple-Amazon-Facebook-Google-hed-796x375.jpg");
 }
 .after-image-image-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/lasso-facebook-app-1.jpg");
+  background-image: url("./images/product_27377_product_shots1_image.jpg");
 }
 .group-picture-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Olympus-E-M1-Mark-III-5-of-5-368x276.jpg");
+  background-image: url("./images/ad.png");
 }
 .after-image-image-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Juiced-CCX-e-bike-ebike-CrossCurrent-X-1-of-1.jpg");
+  background-image: url("./images/product_27533_product_shots1_image.jpg");
 }
 .group-picture-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-4-368x276.jpg");
+  background-image: url("./images/weed_tech-796x417.jpg");
 }
 .after-image-image-4 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-4.png");
+  background-image: url("./images/product_29456_product_shots1.jpg");
 }
 .group-picture-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Fallout-76-hed-368x276.jpg");
+  background-image: url("./images/Social-media-hed-image-796x419.jpg");
 }
 .after-image-image-5 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-1.jpg");
+  background-image: url("./images/product_34441_product_shots1.jpg");
 }
 .group-picture-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/digital-stalker-368x276.png");
+  background-image: url("./images/Facebook-Discover-796x419.jpg");
 }
 .after-image-image-6 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/random-institute-GkacI-_mGlg-unsplash-3.jpg");
+  background-image: url("./images/product_35414_product_shot_wide.jpg");
 }
 .group-picture-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-image: url("./images/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-796x448.png");
 }
 .after-image-image-7 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/whoop-band-christoper-jolly-sleepy-fitness-recovery-tracker-band-zwift.jpg");
+  background-image: url("./images/product_38387_product_shots1.jpg");
 }
 .group-picture-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-368x276.jpg");
+  background-image: url("./images/1.jpg");
 }
 .after-image-image-8 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed.jpg");
+  background-image: url("./images/product_41751_product_shots1.jpg");
 }
 .group-picture-9 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-iphone-13-no-charger-earbuds-368x276.png");
+  background-image: url("./images/Legend-of-Korra-796x417.jpg");
 }
 .after-image-image-9 {
-  background-image: url("https://i.ytimg.com/vi/ioNng23DkIM/hqdefault.jpg");
+  background-image: url("./images/product_41895_product_shots1.jpg");
 }
 .top-grid {
   display: grid;
@@ -451,20 +469,20 @@ footer {
   padding: 10px;
 }
 .top-grid-1 {
-  background-image: url("../images/9.jpeg");
+  background-image: url("./images/9.jpeg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
 }
 .top-grid-2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/lasso-facebook-app-1-796x419.jpg");
+  background-image: url("./images/1.jpg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
   margin-bottom: 10px;
 }
 .top-grid-3 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Juiced-CCX-e-bike-ebike-CrossCurrent-X-1-of-1-796x417.jpg");
+  background-image: url("./images/8.jpeg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
@@ -544,6 +562,15 @@ footer {
 .hidden-1 {
   display: block;
 }
+
+.tmw-logo {
+  display: none;
+}
+
+.current-date {
+  display: none;
+}
+
 .handi {
   margin: 0;
   border-radius: 0;
@@ -576,6 +603,15 @@ footer {
   .deal-items {
   grid-template-columns: repeat(1, 1fr);
   }
+
+  .tmw-logo {
+    display: none;
+  }
+  
+  .current-date {
+    display: none;
+  }
+
   .group-info {
   grid-template-columns: repeat(1, 1fr);
 }
