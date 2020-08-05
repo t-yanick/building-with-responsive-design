@@ -1,14 +1,9 @@
-/*----------------General Rules--------------*/
-
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   overflow: none;
 }
-
-/*----------------Nav Bars --------------*/
-
 nav {
   position: absolute;
   top: 0px;
@@ -18,23 +13,19 @@ nav {
   justify-content: space-between;
   z-index: 10;
 }
-
 nav ul, footer ul {
   display: flex;
   list-style-type: none;
   margin: 0px 10px;
 }
-
 nav li, footer li {
   color: rgb(163, 162, 162);
   margin: 8px;
   font-size: 13px;
 }
-
 nav li:hover, footer li:hover {
   color: white;
 }
-
 .nav-2 {
   margin: 31px 0 0 0;
   display: flex;
@@ -44,61 +35,48 @@ nav li:hover, footer li:hover {
   z-index: 100;
   top: 0;
 }
-
 .nav-2 ul {
   display: flex;
   list-style-type: none;
   margin: 0 5px;
 }
-
 .nav-2 li {
   color: rgb(163, 162, 162);
   margin: 15px 10px;
   font-size: 14px;
 }
-
 .nav-2 li:hover {
   color: black;
 }
-
 .nav-2-right {
   margin: 0 5px;
   display: flex;
 }
-
 .nav-2-icon {
   color: rgb(163, 162, 162);
   padding: 15px 15px;
   border-right: 1px solid lightgrey;
 }
-
 .nav-2-icon-2 {
   color: #f42;
   padding: 15px 15px;
   border-left: 1px solid lightgrey;
 }
-
 .nav-2-icon:hover {
   color: black;
 }
-
-/*----------------Latest News Section--------------*/
-
 .latest-news, .latest-deals {
   max-width: 1176px;
   margin: 20px auto;
   padding: 0 20px;
 }
-
 h2 {
   color: #f42;
 }
-
 h2:hover {
   color: black;
 }
-
-.news-items, .deal-items {
+.latest-news-sec, .deal-items {
   margin: 20px 0;
   display: grid;
   width: 100%;
@@ -107,168 +85,130 @@ h2:hover {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-
-.image-holder {
+.images-head {
   width: 100%;
 }
-
 .news-title, .deals-title {
   font-size: 16px;
   margin: 5px 0;
 }
-
 .news-title:hover, .deals-title:hover {
   color: #f42;
   text-decoration: underline;
 }
-
 .news-source {
   display: flex;
   font-size: 13px;
   color: rgb(163, 162, 162);
 }
-
 .deals-source {
   display: flex;
 }
-
 .price {
   font-size: 13px;
   color: rgb(163, 162, 162);
 }
-
 .author, .price {
   margin-right: 10px;
 }
-
 .author:hover{
   color: black;
 }
-
 .img-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-1-9-516x270.png");
 }
-
 .img-2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/handshake-3962172_960_720-405x270.jpg");
 }
-
 .img-3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-samsungs-galaxy-watch-3-516x270.png");
 }
-
 .img-4 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Screenshot-2020-05-29-at-12.00.49-412x270.png");
 }
-
 .img-5 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-88-516x270.png");
 }
-
 .img-6 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/sale_29686_primary_image_wide-540x270.jpg");
 }
-
 .img-7 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/google-photos-whatsapp-backup-516x270.jpg");
 }
-
 .img-8 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-9-516x270.png");
 }
-
-.image-holder {
+.images-head {
   width: 100%;
   padding-top: 50%;
   background-size: cover;
   background-position: center;
 }
-
-/*----------------Funding Rounds Section--------------*/
-
-.funding, .groups {
+.funding-sec, .groups {
   max-width: 1176px;
   margin: 20px auto;
   padding: 0 20px;
 }
-
-.funding-title {
+.f-title {
   display: flex;
   justify-content: space-between;
 }
-
-.funding-title ul {
+.f-title ul {
   display: flex;
   list-style-type: none;
 }
-
-.funding-title li {
+.f-title li {
   color: #f42;
   padding: 0 10px;
 }
-
-.funding-title li:hover {
+.f-title li:hover {
   color: black;
 }
-
 .left-border {
   border-left: 1px solid #f42;
 }
-
 .deal-1 {
   background-image: url("https://cdnp2.stackassets.com/6179061a340aec6fb745648722689d80eb1f1165/store/f861de62ba66a53247f38806f00d41550a956e426fc22b7963aafc23c1b3/sale_28210_primary_image.jpg");
 }
-
 .deal-2 {
   background-image: url("https://cdnp3.stackassets.com/278f4766db16b246a83ade07d6e32f9d96bb58a8/store/8756becc423f4a2009f0c1a8ff45b7f42163acbbb218d2793ee1ece9e131/sale_29427_primary_image.jpg");
 }
-
 .deal-3 {
   background-image: url("https://cdnp1.stackassets.com/4b7cb9aceb3a4104fa4c3943e45aaf74c1e662dd/store/bab77c55457eed75e6e6db71a1e1777294ee774bfdb91648db70878ed013/sale_29685_primary_image.jpg");
 }
-
 .deal-4 {
   background-image: url("https://cdnp3.stackassets.com/99d7d1e5ccb73bcde062e3916e2911421d061ae8/store/d14b6d2307dfa4481c65eb7b16ba2f90029feacc334febca7e3e206b31b4/sale_29690_primary_image.jpg");
 }
-
 .deal-5 {
   background-image: url("https://cdnp3.stackassets.com/1e92f54e3984c22ee5038489509892cc35a5ef6a/store/03216828414317932febc3029b34c67f0a2e6987d44f0602357e9d9ec560/sale_28070_primary_image.jpg");
 }
-
 .deal-6 {
   background-image: url("https://cdnp1.stackassets.com/0eae207b358763b3824152b46d4f54cfeae463c4/store/7ddede2e8151e29ec555936b55156a3f60008071e085109629f9334318fc/sale_29444_primary_image.jpg");
 }
-
 .deal-7 {
   background-image: url("https://cdnp1.stackassets.com/e94d45be2a29dcc4fc24fba5608407ed2c3dc6ea/store/5ea442f6f281c008c203dbb7dea70cca8ef35fe6415ca1e8d1136e9bbc8b/sale_29762_primary_image.jpg");
 }
-
 .deal-8 {
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
 }
-
 .deal-holder {
   width: 100%;
   padding-top: 74.5%;
   background-size: cover;
   background-position: center;
 }
-
 footer {
   text-align: center;
 }
-
 .footer-2 {
   padding: 39px;
   background-color: black;
   color: #aaa;
   font-size: 12px;
 }
-
 .footer-2 img, .footer-2 a {
   height: 9px;
 }
-
 .icons > * {
   color: white;
   background-color: #333;
@@ -277,30 +217,24 @@ footer {
   border: 1px solid #333;
   margin: 0px 8px;
 }
-
 .icons > *:hover {
   background-color: #131313;
 }
-
 .icons {
   justify-content: center;
   display: flex;
 }
-
 .footer-list {
   display: flex;
   justify-content: center;
 }
-
 .footer-1 > * {
   padding: 15px 0;
 }
-
 .footer-1 {
-  background-color: #131313;
-  padding: 20px 0 10px 0;
+      background-color: #131313;
+      padding: 20px 0 10px 0;
 }
-
 .funding-info {
   margin: 20px 0;
   display: grid;
@@ -308,12 +242,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 25px;
 }
-
 .funding-box-title {
   height: 96.825px;
   position: relative;
 }
-
 .funding-box-title img {
   height: 60px;
   width: 60px;
@@ -323,53 +255,42 @@ footer {
   left: 0;
   display: block;
 }
-
 .title-up {
   background-color: #f42;
   color: White;
 }
-
 .title-down {
   background-color: rgba(255,68,34,.08);
 }
-
 .funding-box {
   background-color: #fffaf8;
 }
-
 .title-displacement {
   padding: 10.667px 16px 10.667px 84px;
 }
-
 .title-displacement h5 {
   color: grey;
   font-size: 12px;
   font-weight: 300;
 }
-
 .title-displacement h4 {
   font-size: 16px;
 }
-
 .mid-funding > * {
   color: #555;
   padding: 5px 10px;
   font-size: 14px;
 }
-
 .mid-funding i {
   color: black;
   margin-right: 5px;
 }
-
 .mid-funding > *:hover {
   color: black;
 }
-
 .mid-funding {
   padding: 10px 0;
 }
-
 .footer-funding {
   border-top: 1px solid #f42;
   padding: 10px;
@@ -379,11 +300,9 @@ footer {
   color: #555;
   line-height: 20px;
 }
-
 .footer-funding span {
   color: #aaa;
 }
-
 .group-info {
   margin: 20px 0;
   display: grid;
@@ -392,11 +311,9 @@ footer {
   grid-column-gap: 25px;
   grid-row-gap: 50px;
 }
-
 .group-picture-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
 }
-
 .group-picture {
   margin-top: 10px;
   width: 100%;
@@ -404,45 +321,37 @@ footer {
   background-position: 50%;
   z-index: 1;
 }
-
 .group-title-stuff {
   padding: 0 0 14px 14px;
   width: 100%;
   position: absolute;
   bottom: 0;
 }
-
 .group-title-stuff > * {
   color: white;
   padding-right: 14px;
 }
-
 .group-popular {
   font-size: 13px;
 }
-
 .group-title {
   font-size: 20px;
 }
-
 .group-author {
   font-size: 12px;
   margin-top: 6px;
 }
-
 .second-layer {
   background: linear-gradient( rgba(255,0,0,0), rgba(0,0,0,1));
   position: relative;
   padding-top: 75%;
 }
-
 .after-image {
   display: flex;
   background-color: rgba(255,68,34,.06);
   margin: 2px 0;
   justify-content: space-between;
 }
-
 .after-image-image {
   min-width: 96px;
   max-width: 96px;
@@ -451,146 +360,116 @@ footer {
   background-position: 50%;
   z-index: 2;
 }
-
 .after-image > * {
   color: #f42;
   font-size: 14px;
 }
-
-.after-image-words {
+.after-head-text {
   margin: 10px 20px 0 10px;
 }
-
 .after-image-image-1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg");
 }
-
 .after-image-latest {
   font-weight: 300;
 }
-
 .after-image-title {
   font-weight: 500;
 }
-
 .after-image-title:hover {
   text-decoration: underline;
 }
-
 .group-list ul {
   margin-left: 14px;
   line-height: 20px;
 }
-
 .group-list li {
   color: #f42;
   font-size: 12px;
   border-bottom: 1px solid #eee;
   padding: 8px;
 }
-
 .group-list span {
   color: #555;
   font-size: 13px;
 }
-
 .group-list span:hover {
   color: black;
 }
-
 .group-picture-2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-79-368x276.png");
 }
-
 .after-image-image-2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/lasso-facebook-app-1.jpg");
 }
-
 .group-picture-3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Olympus-E-M1-Mark-III-5-of-5-368x276.jpg");
 }
-
 .after-image-image-3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Juiced-CCX-e-bike-ebike-CrossCurrent-X-1-of-1.jpg");
 }
-
 .group-picture-4 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/Untitled-design-4-368x276.jpg");
 }
-
 .after-image-image-4 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-4.png");
 }
-
 .group-picture-5 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Fallout-76-hed-368x276.jpg");
 }
-
 .after-image-image-5 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-1.jpg");
 }
-
 .group-picture-6 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/digital-stalker-368x276.png");
 }
-
 .after-image-image-6 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/random-institute-GkacI-_mGlg-unsplash-3.jpg");
 }
-
 .group-picture-7 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
 }
-
 .after-image-image-7 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/whoop-band-christoper-jolly-sleepy-fitness-recovery-tracker-band-zwift.jpg");
 }
-
 .group-picture-8 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Facebook-Discover-368x276.jpg");
 }
 .after-image-image-8 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed.jpg");
 }
-
 .group-picture-9 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-iphone-13-no-charger-earbuds-368x276.png");
 }
-
 .after-image-image-9 {
   background-image: url("https://i.ytimg.com/vi/ioNng23DkIM/hqdefault.jpg");
 }
-
-.image-grid {
+.top-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 10px;
   padding: 10px;
 }
-
-.image-grid-1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Reliance-Jio-ft-796x420.jpg");
+.top-grid-1 {
+  background-image: url("../images/9.jpeg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
 }
-
-.image-grid-2 {
+.top-grid-2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/lasso-facebook-app-1-796x419.jpg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
   margin-bottom: 10px;
 }
-
-.image-grid-3 {
+.top-grid-3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Juiced-CCX-e-bike-ebike-CrossCurrent-X-1-of-1-796x417.jpg");
   width: 100%;
   background-position: 50%;
   background-size: cover;
 }
-
-.third-layer {
+.child-sec {
   background: linear-gradient( rgba(255,0,0,0), rgba(0,0,0,1));
   position: relative;
   padding-top: 40%;
@@ -598,35 +477,29 @@ footer {
   background-size: cover;
   width: 100%;
 }
-
-.image-words {
+.head-text {
   position: absolute;
   bottom: 0;
   margin: 10px;
 }
-
-.image-words-title {
+.head-text-title {
   color: white;
   font-size: 52px;
   margin-bottom: 10px;
 }
-
-.image-words-bottom {
+.head-text-bottom {
   color: #555;
   font-size: 12px;
 }
-
-.image-words-mini {
+.headlines {
   color: white;
   font-size: 26px;
 }
-
-.image-words-top {
+.headings {
   color: white;
   font-size: 16px;
 }
-
-/* .handi {
+.handi {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -637,17 +510,14 @@ footer {
   font-size: 28px;
   padding: 10px;
   z-index: 10;
-} */
-
+}
 .deal-title {
   display: flex;
   justify-content: space-between;
 }
-
 .deals-right {
   color: #f42;
 }
-
 .nav-img {
   background-color: red;
   padding: 11px 20px;
@@ -655,157 +525,118 @@ footer {
   width: 66px;
   margin: 0;
 }
-
 #overwrite {
   margin: 0;
 }
-
 .nav-2-left-holder {
   display: flex;
 }
-
 .hidden-1, .hidden-2 {
   display: none;
 }
-
 #hidden-2 {
   display: none;
 }
-
-/*----------------Tablet Queries--------------*/
-
 @media only screen and (max-width: 1024px) {
-.news-items {
+.latest-news-sec {
   grid-template-columns: repeat(3, 1fr);
 }
-
 .hidden-1 {
   display: block;
 }
-
-/* .handi {
+.handi {
   margin: 0;
   border-radius: 0;
   font-size: 16px;
   padding: 5px;
-} */
-
+}
 .to-hide-1 {
   display: none;
 }
-
 .funding-info {
   grid-template-columns: repeat(3, 1fr);
 }
-
 .group-info {
   grid-template-columns: repeat(2, 1fr);
 }
-
 .deal-items {
   grid-template-columns: repeat(3, 1fr);
 }
-
-.image-words-title {
+.head-text-title {
   font-size: 36px;
 }
-
-.image-words-mini {
+.headlines {
   font-size: 20px;
 }
 }
-
-/*----------------Mobile Media Queries--------------*/
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 765px) {
   nav {
       display: none;
   }
-
   .deal-items {
   grid-template-columns: repeat(1, 1fr);
   }
-
   .group-info {
   grid-template-columns: repeat(1, 1fr);
 }
-
 .funding-info {
   grid-template-columns: repeat(1, 1fr);
 }
-
-.news-items {
+.latest-news-sec {
   grid-template-columns: repeat(1, 1fr);
 }
-
 .deal-adapt {
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
-
 .deal-push {
   margin-left: 10px;
 }
-
 .nav-2 ul {
   display: none;
 }
-
 .nav-2 {
   margin: 0;
 }
-
 #hidden-2 {
   display: block;
 }
-
-.image-grid {
+.top-grid {
   grid-template-columns: repeat(1, 1fr);
   margin: 0 10px;
 }
-
-.image-words-title {
+.head-text-title {
   font-size: 20px;
 }
-
-.third-layer {
+.child-sec {
   padding-top: 20%;
 }
-
-.image-grid-1 {
+.top-grid-1 {
   margin: 10px;
 }
-
-.image-grid-2 {
+.top-grid-2 {
   margin: 0 10px 10px 10px;
 }
-
-.image-grid-3 {
+.top-grid-3 {
   margin: 0 10px 10px 10px;
 }
-
-.news-adap {
+.latest-head {
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
-
-.news-push {
+.news-headlines {
   margin-left: 10px;
 }
-
-.funding-title {
+.f-title {
   display: block;
 }
-
 .left-border {
   border-left: none;
 }
-
-.funding-title li {
+.f-title li {
   margin: 10px 0;
 }
-
-.funding-title ul {
+.f-title ul {
   display: block;
 }
 
