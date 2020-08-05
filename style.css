@@ -2,7 +2,6 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  overflow: none;
 }
 
 nav {
@@ -294,7 +293,7 @@ footer {
   border-radius: 50%;
   padding: 12px;
   border: 1px solid #333;
-  margin: 0px 8px;
+  margin: 0 8px;
 }
 
 .footer-1 > * {
@@ -304,6 +303,11 @@ footer {
 .after-image > * {
   color: #f42;
   font-size: 14px;
+}
+
+.group-title-stuff > * {
+  color: white;
+  padding-right: 14px;
 }
 
 .mid-funding > * {
@@ -436,11 +440,6 @@ footer {
   bottom: 0;
 }
 
-.group-title-stuff > * {
-  color: white;
-  padding-right: 14px;
-}
-
 .group-popular {
   font-size: 13px;
 }
@@ -455,14 +454,14 @@ footer {
 }
 
 .second-layer {
-  background: linear-gradient( rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+  background: linear-gradient rgba(255, 0, 0, 0), rgba(0, 0, 0, 1);
   position: relative;
   padding-top: 75%;
 }
 
 .after-image {
   display: flex;
-  background-color: rgba(255, 68, 34, .06);
+  background-color: rgba(255, 68, 34, 0.6);
   margin: 2px 0;
   justify-content: space-between;
 }
@@ -687,7 +686,6 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-  
   .latest-news-sec {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -738,7 +736,6 @@ footer {
 }
 
 @media only screen and (max-width: 765px) {
-
   nav {
     display: none;
   }
@@ -762,6 +759,7 @@ footer {
   .funding-info {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .latest-news-sec {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -836,5 +834,4 @@ footer {
   .f-title ul {
     display: block;
   }
-
 }
