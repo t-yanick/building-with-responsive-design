@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: none;
 }
 
 nav {
@@ -35,6 +35,18 @@ footer li {
   font-size: 14px;
 }
 
+.f-title li {
+  color: #f42;
+  padding: 0 10px;
+}
+
+.group-list li {
+  color: #f42;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+}
+
 nav li:hover,
 footer li:hover {
   color: white;
@@ -54,11 +66,6 @@ footer li:hover {
   display: flex;
   list-style-type: none;
   margin: 0 5px;
-}
-
-.f-title li {
-  color: #f42;
-  padding: 0 10px;
 }
 
 .nav-2 li:hover {
@@ -281,7 +288,7 @@ footer {
   height: 9px;
 }
 
-.icons >* {
+.icons > * {
   color: white;
   background-color: #333;
   border-radius: 50%;
@@ -290,7 +297,22 @@ footer {
   margin: 0px 8px;
 }
 
-.icons >*:hover {
+.footer-1 > * {
+  padding: 15px 0;
+}
+
+.after-image > * {
+  color: #f42;
+  font-size: 14px;
+}
+
+.mid-funding > * {
+  color: #555;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.icons > *:hover {
   background-color: #131313;
 }
 
@@ -302,10 +324,6 @@ footer {
 .footer-list {
   display: flex;
   justify-content: center;
-}
-
-.footer-1 >* {
-  padding: 15px 0;
 }
 
 .footer-1 {
@@ -338,11 +356,11 @@ footer {
 
 .title-up {
   background-color: #f42;
-  color: White;
+  color: white;
 }
 
 .title-down {
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.8);
 }
 
 .funding-box {
@@ -363,18 +381,12 @@ footer {
   font-size: 16px;
 }
 
-.mid-funding>* {
-  color: #555;
-  padding: 5px 10px;
-  font-size: 14px;
-}
-
 .mid-funding i {
   color: black;
   margin-right: 5px;
 }
 
-.mid-funding >*:hover {
+.mid-funding > *:hover {
   color: black;
 }
 
@@ -424,7 +436,7 @@ footer {
   bottom: 0;
 }
 
-.group-title-stuff >* {
+.group-title-stuff > * {
   color: white;
   padding-right: 14px;
 }
@@ -464,11 +476,6 @@ footer {
   z-index: 2;
 }
 
-.after-image >* {
-  color: #f42;
-  font-size: 14px;
-}
-
 .after-head-text {
   margin: 10px 20px 0 10px;
 }
@@ -492,13 +499,6 @@ footer {
 .group-list ul {
   margin-left: 14px;
   line-height: 20px;
-}
-
-.group-list li {
-  color: #f42;
-  font-size: 12px;
-  border-bottom: 1px solid #eee;
-  padding: 8px;
 }
 
 .group-list span {
@@ -604,7 +604,7 @@ footer {
 }
 
 .child-sec {
-  background: linear-gradient( rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+  background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
   position: relative;
   padding-top: 40%;
   height: 3%;
@@ -690,115 +690,149 @@ footer {
   .latest-news-sec {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .hidden-1 {
     display: block;
   }
+
   .tmw-logo {
     display: none;
   }
+
   .current-date {
     display: none;
   }
+
   .handi {
     margin: 0;
     border-radius: 0;
     font-size: 16px;
     padding: 5px;
   }
+
   .to-hide-1 {
     display: none;
   }
+
   .funding-info {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .group-info {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .deal-items {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .head-text-title {
     font-size: 36px;
   }
+
   .headlines {
     font-size: 20px;
   }
+
 }
 
 @media only screen and (max-width: 765px) {
   nav {
     display: none;
   }
+
   .deal-items {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .tmw-logo {
     display: none;
   }
+
   .current-date {
     display: none;
   }
+
   .group-info {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .funding-info {
     grid-template-columns: repeat(1, 1fr);
   }
   .latest-news-sec {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .deal-adapt {
     display: grid;
     grid-template-columns: 1fr 6fr;
   }
+
   .deal-push {
     margin-left: 10px;
   }
+
   .nav-2 ul {
     display: none;
   }
+
   .nav-2 {
     margin: 0;
   }
+
   #hidden-2 {
     display: block;
   }
+
   .top-grid {
     grid-template-columns: repeat(1, 1fr);
     margin: 0 10px;
   }
+
   .head-text-title {
     font-size: 20px;
   }
+
   .child-sec {
     padding-top: 20%;
   }
+
   .top-grid-1 {
     margin: 10px;
   }
+
   .top-grid-2 {
     margin: 0 10px 10px 10px;
   }
+
   .top-grid-3 {
     margin: 0 10px 10px 10px;
   }
+
   .latest-head {
     display: grid;
     grid-template-columns: 1fr 6fr;
   }
+
   .news-headlines {
     margin-left: 10px;
   }
+
   .f-title {
     display: block;
   }
+
   .left-border {
     border-left: none;
   }
+
   .f-title li {
     margin: 10px 0;
   }
+
   .f-title ul {
     display: block;
   }
+  
 }
