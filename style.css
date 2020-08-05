@@ -127,6 +127,7 @@ h2:hover {
 
 .tmw-logo {
   width: 30%;
+  margin-bottom: 50px;
 }
 
 .current-date {
@@ -619,7 +620,7 @@ footer {
 
 .head-text-title {
   color: white;
-  font-size: 52px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -666,10 +667,11 @@ footer {
   height: 24px;
   width: 66px;
   margin: 0;
+  position: absolute;
 }
 
 #overwrite {
-  margin: 0;
+  margin: 0;                                                                                                              
 }
 
 .nav-2-left-holder {
@@ -692,6 +694,34 @@ footer {
 
   .hidden-1 {
     display: block;
+    position: relative;
+  }
+
+  nav {
+    padding-left: 112px;
+    position: absolute;
+  }
+
+  nav .top-right {
+    padding-right: 105px;
+  }
+
+  .nav-img {
+    float: left;
+    z-index: 99;
+  }
+  
+  #overwrite {
+    margin-left: 3px;
+    position: absolute;  
+    z-index: 10;  
+    height: 62px;
+    margin-top: -31px; 
+
+  }
+
+  .nav-2 ul {
+    padding-left: 112px;
   }
 
   .tmw-logo {
@@ -734,7 +764,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
   nav {
     display: none;
   }
@@ -833,4 +863,11 @@ footer {
   .f-title ul {
     display: block;
   }
+
+  .footer-2 span {
+    display: block;
+    /* flex-direction: column; */
+
+}
+
 }
