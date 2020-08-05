@@ -2,14 +2,14 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  overflow: none;
+  overflow: hidden;
 }
 
 nav {
   position: absolute;
-  top: 0px;
+  top: 0;
   width: 100%;
-  Display: flex;
+  display: flex;
   background-color: black;
   justify-content: space-between;
   z-index: 10;
@@ -19,7 +19,7 @@ nav ul,
 footer ul {
   display: flex;
   list-style-type: none;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 nav li,
@@ -27,6 +27,12 @@ footer li {
   color: rgb(163, 162, 162);
   margin: 8px;
   font-size: 13px;
+}
+
+.nav-2 li {
+  color: rgb(163, 162, 162);
+  margin: 15px 10px;
+  font-size: 14px;
 }
 
 nav li:hover,
@@ -50,10 +56,9 @@ footer li:hover {
   margin: 0 5px;
 }
 
-.nav-2 li {
-  color: rgb(163, 162, 162);
-  margin: 15px 10px;
-  font-size: 14px;
+.f-title li {
+  color: #f42;
+  padding: 0 10px;
 }
 
 .nav-2 li:hover {
@@ -109,6 +114,9 @@ h2:hover {
 
 .images-head {
   width: 100%;
+  padding-top: 50%;
+  background-size: cover;
+  background-position: center;
 }
 
 .tmw-logo {
@@ -193,13 +201,6 @@ h2:hover {
   background-image: url("./images/111.jpg");
 }
 
-.images-head {
-  width: 100%;
-  padding-top: 50%;
-  background-size: cover;
-  background-position: center;
-}
-
 .funding-sec,
 .groups {
   max-width: 1176px;
@@ -215,11 +216,6 @@ h2:hover {
 .f-title ul {
   display: flex;
   list-style-type: none;
-}
-
-.f-title li {
-  color: #f42;
-  padding: 0 10px;
 }
 
 .f-title li:hover {
@@ -285,7 +281,7 @@ footer {
   height: 9px;
 }
 
-.icons>* {
+.icons >* {
   color: white;
   background-color: #333;
   border-radius: 50%;
@@ -294,7 +290,7 @@ footer {
   margin: 0px 8px;
 }
 
-.icons>*:hover {
+.icons >*:hover {
   background-color: #131313;
 }
 
@@ -308,7 +304,7 @@ footer {
   justify-content: center;
 }
 
-.footer-1>* {
+.footer-1 >* {
   padding: 15px 0;
 }
 
@@ -378,7 +374,7 @@ footer {
   margin-right: 5px;
 }
 
-.mid-funding>*:hover {
+.mid-funding >*:hover {
   color: black;
 }
 
@@ -428,7 +424,7 @@ footer {
   bottom: 0;
 }
 
-.group-title-stuff>* {
+.group-title-stuff >* {
   color: white;
   padding-right: 14px;
 }
@@ -468,7 +464,7 @@ footer {
   z-index: 2;
 }
 
-.after-image>* {
+.after-image >* {
   color: #f42;
   font-size: 14px;
 }
