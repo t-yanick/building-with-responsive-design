@@ -924,6 +924,14 @@ footer {
     display: block;
   }
 
+  .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8 {
+    height: 70px;
+  }
+
+  .deal-1, .deal-2, .deal-3, .deal-4, .deal-5, .deal-6, .deal-7, .deal-8 {
+    height: 40px;
+  }
+
  .footer-2 span {
     display: block;
   }
