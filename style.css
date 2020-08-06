@@ -700,6 +700,8 @@ footer {
   nav {
     padding-left: 112px;
     position: absolute;
+    overflow-x: hidden;
+    width: 88%;
   }
 
   nav .top-right {
@@ -709,6 +711,7 @@ footer {
   .nav-img {
     float: left;
     z-index: 99;
+    align-items: center;
   }
 
   #overwrite {
@@ -725,6 +728,10 @@ footer {
 
   .tmw-logo {
     display: none;
+  }
+
+  .top-grid {
+    overflow-x: hidden;
   }
 
   .current-date {
@@ -750,6 +757,18 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .f-title {
+    display: block;
+  }
+
+  .f-title li {
+    margin: 10px 0;
+  }
+
+  .f-title ul {
+    display: block;
+  }
+
   .deal-items {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -764,6 +783,7 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+
   nav {
     display: none;
   }
@@ -816,6 +836,9 @@ footer {
   .top-grid {
     grid-template-columns: repeat(1, 1fr);
     margin: 0 10px;
+    height: 950px;
+    margin-bottom: 50px;
+    overflow-x: hidden;
   }
 
   .head-text-title {
@@ -828,14 +851,52 @@ footer {
 
   .top-grid-1 {
     margin: 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    position: relative;
+
   }
 
   .top-grid-2 {
     margin: 0 10px 10px 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
   }
 
   .top-grid-3 {
     margin: 0 10px 10px 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .headings {
+    position: absolute;
+    bottom: -85px;
+  }
+
+  .head-text-title {
+    position: absolute;
+    bottom: -145px;
+    margin: 2px;
+    width: 99vw;
+  }
+
+  .headlines {
+    position: absolute;
+    bottom: -145px;
+    margin: 2px;
+    width: 96vw;
+  }
+
+  .head-text-bottom {
+    position: absolute;
+    bottom: -165px;
+    margin: 2px;
+    width: 99vw;
+    color: whitesmoke;
   }
 
   .latest-head {
