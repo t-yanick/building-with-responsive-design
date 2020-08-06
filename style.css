@@ -20,6 +20,10 @@
   color: white
 }
 
+.d-grid {
+  display: grid;
+}
+
 nav {
   position: absolute;
   top: 0;
