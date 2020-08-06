@@ -2,6 +2,7 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+
 }
 
 .flex {
@@ -134,14 +135,14 @@ h2:hover {
 
 .tmw-logo {
   width: 30%;
-  margin-bottom: 50px;
+  margin-bottom: 68px;
 }
 
 .current-date {
   position: absolute;
   float: right;
   top: 0;
-  margin-left: 560px;
+  margin-left: 450px;
   margin-bottom: 50px;
   width: 27%;
 }
@@ -618,7 +619,7 @@ footer {
 
 .head-text-title {
   color: white;
-  font-size: 45px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
@@ -714,12 +715,14 @@ footer {
   }
 
   #overwrite {
-    margin-left: 3px;
-    position: absolute;
+    margin-left: 0;
+    position: absolute!important;
     z-index: 10;
-    height: 62px;
+    height: 60%;
     margin-top: -31px;
-  }
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
 
   .nav-2 ul {
     padding-left: 112px;
@@ -784,6 +787,7 @@ footer {
 @media only screen and (max-width: 767px) {
   nav {
     display: none;
+    padding: 0;
   }
 
   .deal-items {
@@ -831,16 +835,26 @@ footer {
     display: block;
   }
 
+  #overwrite {
+    margin-left: 3px;
+    position: absolute;
+    z-index: 10;
+    height: 10px;
+    margin-top: -10px;
+}
+
   .top-grid {
     grid-template-columns: repeat(1, 1fr);
-    margin: 0 10px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 10px;
     height: 950px;
     margin-bottom: 50px;
     overflow-x: hidden;
   }
 
   .child-sec {
-    padding-top: 20%;
+    padding-top: 300px;
   }
 
   .top-grid-1 {
@@ -863,34 +877,6 @@ footer {
     height: 300px;
     background-repeat: no-repeat;
     position: relative;
-  }
-
-  .headings {
-    position: absolute;
-    bottom: -85px;
-  }
-
-  .head-text-title {
-    position: absolute;
-    bottom: -145px;
-    margin: 2px;
-    width: 99vw;
-    font-size: 20px;
-  }
-
-  .headlines {
-    position: absolute;
-    bottom: -145px;
-    margin: 2px;
-    width: 96vw;
-  }
-
-  .head-text-bottom {
-    position: absolute;
-    bottom: -165px;
-    margin: 2px;
-    width: 99vw;
-    color: whitesmoke;
   }
 
   .latest-head {
