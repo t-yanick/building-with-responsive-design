@@ -17,7 +17,7 @@
 }
 
 .white-color {
-  color: white
+  color: white;
 }
 
 .d-grid {
@@ -28,6 +28,7 @@ nav {
   position: absolute;
   top: 0;
   width: 100%;
+
   /* display: flex; */
   background-color: black;
   justify-content: space-between;
@@ -72,6 +73,7 @@ footer li:hover {
 
 .nav-2 {
   margin: 31px 0 0 0;
+
   /* display: flex; */
   justify-content: space-between;
   background-color: rgb(250, 250, 250);
@@ -92,6 +94,7 @@ footer li:hover {
 
 .nav-2-right {
   margin: 0 5px;
+
   /* display: flex; */
 }
 
@@ -117,7 +120,8 @@ footer li:hover {
   margin: 20px auto;
   padding: 0 20px;
 }
-/* 
+
+/*
 h2 {
   color: #f42;
 } */
@@ -151,6 +155,7 @@ h2:hover {
 
 .current-date {
   position: absolute;
+
   /* color: white; */
   float: right;
   top: 0;
@@ -342,6 +347,7 @@ footer {
 
 .icons {
   justify-content: center;
+
   /* display: flex; */
 }
 
@@ -690,7 +696,7 @@ footer {
 }
 
 #overwrite {
-  margin: 0;                                                                                                              
+  margin: 0;
 }
 
 .nav-2-left-holder {
@@ -735,10 +741,10 @@ footer {
 
   #overwrite {
     margin-left: 3px;
-    position: absolute;  
-    z-index: 10;  
+    position: absolute;
+    z-index: 10;
     height: 62px;
-    margin-top: -31px; 
+    margin-top: -31px;
   }
 
   .nav-2 ul {
@@ -769,7 +775,7 @@ footer {
   }
 
   .left-border {
-    border-left: none
+    border-left: none;
   }
 
   .funding-info {
@@ -952,7 +958,7 @@ footer {
 
   .img-3 {
     height: 70px;
-  } 
+  }
 
   .img-4 {
     height: 70px;
@@ -976,31 +982,31 @@ footer {
 
   .deal-1 {
     height: 40px;
-  } 
+  }
 
   .deal-2 {
     height: 40px;
-  } 
+  }
 
   .deal-3 {
     height: 40px;
-  } 
+  }
 
   .deal-4 {
     height: 40px;
-  } 
+  }
 
   .deal-5 {
     height: 40px;
-  } 
+  }
 
   .deal-6 {
     height: 40px;
-  } 
+  }
 
   .deal-7 {
     height: 40px;
-  } 
+  }
 
   .deal-8 {
     height: 40px;
