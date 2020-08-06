@@ -783,7 +783,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-
   nav {
     display: none;
   }
@@ -841,10 +840,6 @@ footer {
     overflow-x: hidden;
   }
 
-  .head-text-title {
-    font-size: 20px;
-  }
-
   .child-sec {
     padding-top: 20%;
   }
@@ -855,7 +850,6 @@ footer {
     background-repeat: no-repeat;
     background-position: 100%;
     position: relative;
-
   }
 
   .top-grid-2 {
@@ -882,6 +876,7 @@ footer {
     bottom: -145px;
     margin: 2px;
     width: 99vw;
+    font-size: 20px;
   }
 
   .headlines {
@@ -924,11 +919,25 @@ footer {
     display: block;
   }
 
-  .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8 {
+  .img-1,
+  .img-2,
+  .img-3, 
+  .img-4,
+  .img-5,
+  .img-6,
+  .img-7,
+  .img-8 {
     height: 70px;
   }
 
-  .deal-1, .deal-2, .deal-3, .deal-4, .deal-5, .deal-6, .deal-7, .deal-8 {
+  .deal-1, 
+  .deal-2, 
+  .deal-3, 
+  .deal-4, 
+  .deal-5, 
+  .deal-6, 
+  .deal-7, 
+  .deal-8 {
     height: 40px;
   }
 
