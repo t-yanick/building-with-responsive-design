@@ -919,24 +919,62 @@ footer {
     display: block;
   }
 
-  .img-1,
-  .img-2,
-  .img-3, 
-  .img-4,
-  .img-5,
-  .img-6,
-  .img-7,
+  .img-1 {
+    height: 70px;
+  }
+
+  .img-2 {
+    height: 70px;
+  }
+  .img-3 {
+    height: 70px;
+  } 
+
+  .img-4 {
+    height: 70px;
+  }
+
+  .img-5 {
+    height: 70px;
+  }
+
+  .img-6 {
+    height: 70px;
+  }
+  .img-7 {
+    height: 70px;
+  }
+
   .img-8 {
     height: 70px;
   }
 
-  .deal-1, 
-  .deal-2, 
-  .deal-3, 
-  .deal-4, 
-  .deal-5, 
-  .deal-6, 
-  .deal-7, 
+  .deal-1 {
+    height: 40px;
+  } 
+
+  .deal-2 {
+    height: 40px;
+  } 
+
+  .deal-3 {
+    height: 40px;
+  } 
+
+  .deal-4 {
+    height: 40px;
+  } 
+  .deal-5 {
+    height: 40px;
+  } 
+  .deal-6 {
+    height: 40px;
+  } 
+
+  .deal-7 {
+    height: 40px;
+  } 
+  
   .deal-8 {
     height: 40px;
   }
