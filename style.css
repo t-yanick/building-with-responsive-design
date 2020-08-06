@@ -2,7 +2,6 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
 .flex {
@@ -716,13 +715,13 @@ footer {
 
   #overwrite {
     margin-left: 0;
-    position: absolute!important;
+    position: absolute !important;
     z-index: 10;
     height: 60%;
     margin-top: -31px;
     padding-top: 30px;
     padding-bottom: 15px;
-}
+  }
 
   .nav-2 ul {
     padding-left: 112px;
@@ -841,7 +840,7 @@ footer {
     z-index: 10;
     height: 10px;
     margin-top: -10px;
-}
+  }
 
   .top-grid {
     grid-template-columns: repeat(1, 1fr);
