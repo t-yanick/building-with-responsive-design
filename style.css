@@ -662,7 +662,7 @@ footer {
 .nav-img {
   background-color: red;
   padding: 11px 20px;
-  height: 24px;
+  height: 40px;
   width: 66px;
   margin: 0;
   position: absolute;
@@ -699,7 +699,7 @@ footer {
     padding-left: 112px;
     position: absolute;
     overflow-x: hidden;
-    width: 88%;
+    width: 85%;
   }
 
   nav .top-right {
@@ -710,6 +710,7 @@ footer {
     float: left;
     z-index: 99;
     align-items: center;
+    margin-left: 0;
   }
 
   #overwrite {
@@ -726,10 +727,6 @@ footer {
 
   .tmw-logo {
     display: none;
-  }
-
-  .top-grid {
-    overflow-x: hidden;
   }
 
   .current-date {
@@ -776,7 +773,7 @@ footer {
   }
 
   .head-text-title {
-    font-size: 36px;
+    font-size: 26px;
   }
 
   .headlines {
