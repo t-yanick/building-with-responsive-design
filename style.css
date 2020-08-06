@@ -12,6 +12,14 @@
   color: #f42;
 }
 
+.color-y {
+  color: rgb(163, 162, 162);
+}
+
+.white-color {
+  color: white
+}
+
 nav {
   position: absolute;
   top: 0;
@@ -31,13 +39,13 @@ footer ul {
 
 nav li,
 footer li {
-  color: rgb(163, 162, 162);
+  /* color: rgb(163, 162, 162); */
   margin: 8px;
   font-size: 13px;
 }
 
 .nav-2 li {
-  color: rgb(163, 162, 162);
+  /* color: rgb(163, 162, 162); */
   margin: 15px 10px;
   font-size: 14px;
 }
@@ -139,7 +147,7 @@ h2:hover {
 
 .current-date {
   position: absolute;
-  color: white;
+  /* color: white; */
   float: right;
   top: 0;
   margin-left: 560px;
@@ -296,7 +304,7 @@ footer {
 }
 
 .icons > * {
-  color: white;
+  /* color: white; */
   background-color: #333;
   border-radius: 50%;
   padding: 12px;
@@ -314,7 +322,7 @@ footer {
 }
 
 .group-title-stuff > * {
-  color: white;
+  /* color: white; */
   padding-right: 14px;
 }
 
@@ -468,7 +476,7 @@ footer {
 }
 
 .after-image {
-  display: flex;
+  /* display: flex; */
   background-color: rgba(255, 68, 34, 0.6);
   margin: 2px 0;
   justify-content: space-between;
@@ -754,6 +762,10 @@ footer {
 
   .to-hide-1 {
     display: none;
+  }
+
+  .left-border {
+    border-left: none
   }
 
   .funding-info {
